@@ -1,6 +1,12 @@
+.carousel {
+  margin-top: 100px;
+}
+a:hover {
+    color: #ec539c;
+}
 .carousel-item {
   height: 100vh;
-  min-height: 300px;
+  max-height: 450px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -8,7 +14,7 @@
   background-size: cover;
 }
 .carousel-caption {
-  bottom: 270px;
+  bottom: 110px;
 }
 
 .carousel-caption h5 {
@@ -34,11 +40,12 @@
 }
 
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-  color: #fff;
+  color: #ec539c;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #fff;
+  color: #000;
+  font-weight: bold;
 }
 
 .navbar-toggler {
@@ -64,5 +71,52 @@
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-  color: #fff;
+  color: #ec539c;
 }
+
+.btn-secondary {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+.container {
+    width: 100%; 
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+h6 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.row .btn-secondary {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.btn:hover {
+  background-color: #ec539c;
+  color: white;
+}
+
+h3 {
+    margin-bottom: 50px;
+    color: #ec539c;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.row {
+margin-bottom: -70px;
+}
+
+
+

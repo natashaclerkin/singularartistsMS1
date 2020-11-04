@@ -2,6 +2,7 @@
 
 body{
     color: #000;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Inactive navlinks */
@@ -33,6 +34,12 @@ body{
     color: #f742a8;
 }
 
+/* Headings */
+h2 {
+    text-transform: uppercase;
+    margin: 30px;
+}
+
 /* Section BG color*/
 .jumbotron {
     background-color: #68cec3;
@@ -49,6 +56,10 @@ body{
     color: #312425;
 }
 
-h5{
+h5 {
     color: #312425;
+}
+
+.form{
+    align-content: center;
 }

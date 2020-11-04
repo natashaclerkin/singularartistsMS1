@@ -1,142 +1,54 @@
-.carousel {
-  margin-top: 100px;
-}
+/* CSS RESET? */
 
-a:hover {
-    color: #ec539c;
-}
-
-.carousel-item {
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.carousel-caption h5 {
-    font-size: 60px;
-    text-transform: uppercase;
-    letter-spacing: 25px;
-    text-align: center;
-    margin-bottom: 300px;
-    display: block;
-}
-
-/* Caption comment 
-
-.carousel-caption p {
-  width: 75%;
-  margin: auto;
-  font-size: 18px;
-  line-height: 1.9;
-}
- */ 
-
-.navbar-light .navbar-brand {
-  color: #fff;
-  font-size: 25px;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
-
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-  color: #ec539c;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: #000;
-  font-weight: bold;
-}
-
-.navbar-toggler {
-  background: #fff;
-}
-
-.navbar-nav {
-  text-align: center;
-}
-
-.nav-link {
-  padding: .2rem 1rem;
-}
-
-.nav-link.active,.nav-link:focus{
-  color: #fff;
-}
-
-.navbar-toggler {
-  padding: 1px 5px;
-  font-size: 18px;
-  line-height: 0.3;
-}
-
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-  color: #ec539c;
-}
-
-.btn-secondary {
-    color: #fff;
-    background-color: #000;
-    border-color: #000;
-}
-
-.container {
-    width: 100%; 
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto; 
-}
-
-h6 {
-    margin-top: 20px;
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.row .btn-secondary {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
-
-.btn:hover {
-  background-color: #ec539c;
-  color: white;
-}
-
-h3 {
-    margin-bottom: 50px;
-    color: #ec539c;
-    text-align: center;
-    margin-top: 80px;
-}
-
-.row {
-margin-bottom: -70px;
-}
-
-
-.clientlist img {
-    display: block;
-    margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-}
-}
-
-.footer .fas {
-    color: #ec539c;
-}
-
-.footer {
+body{
     color: #000;
 }
 
-.mt-2, .my-2 {
-    margin-top: 15px!important;
+/* Inactive navlinks */
+.navbar-light .navbar-nav .nav-link {
+    color:#000;
+}
+
+/* Active navlink */
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #f742a8;
+}
+
+/* 'Get in touch' CTA Button */
+.btn-outline-dark {
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #312425;
+}
+
+/* Hover 'Get in touch' & carousel CTA Buttons */
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: #f742a8;
+    border-color: #000;
+}
+
+/* Hover nav links*/
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #f742a8;
+}
+
+/* Section BG color*/
+.jumbotron {
+    background-color: #68cec3;
+    color: #fff;
+}
+
+/* Section tagline */
+.text-tagline {
+    color: #000;
+}
+
+/* Icons */
+.fa, .fas {
+    color: #312425;
+}
+
+h5{
+    color: #312425;
 }

@@ -14,9 +14,13 @@ body{
 }
 
 /* Navbar */
-.navbar{
+.navbar {
     height: 55px;
-    color:rgba(0, 0, 0, 0.0);
+    background-color: rgba(0, 0, 0, 0.88);
+    padding-right: 1rem;
+    padding-left: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
 }
 
 /* Toggler */
@@ -32,9 +36,16 @@ body{
     letter-spacing: 1px;
 }
 
+
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color:#ffffff;
+}
+
 /* active navlinks */
-nav-link a:active {
-color: #f742a8;
+.nav-item a.active {
+  color: #f742a8 !important;
 }
 
 /* Logo */
@@ -86,6 +97,7 @@ h1 {
 /* Main carousel colour effect (Inspired code from https://stackoverflow.com/questions/15765550/darkening-an-image-with-css-in-any-shape/41076850) */
 .carousel-black img {
 filter: brightness(95%) saturate(0%);
+    margin-top: 55px;
 }
 
 /* Headings */

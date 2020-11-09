@@ -30,15 +30,11 @@ body{
     font-weight: bold;
     margin-right: 10px;
     letter-spacing: 1px;
-
 }
 
-/* Active navlink */
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #f742a8;
-    font-weight: bold;
-    margin-right: 10px;
-    letter-spacing: 1px;
+/* active navlinks */
+nav-link a:active {
+color: #f742a8;
 }
 
 /* Logo */
@@ -73,7 +69,7 @@ body{
 
 /* Carousel caption */
 .carousel-caption {
-    top: 30%; 
+    top: 32%; 
 }    
 
 /* Carousel CTA */
@@ -89,7 +85,7 @@ h1 {
 
 /* Main carousel colour effect (Inspired code from https://stackoverflow.com/questions/15765550/darkening-an-image-with-css-in-any-shape/41076850) */
 .carousel-black img {
-filter: brightness(75%) saturate(0%);
+filter: brightness(95%) saturate(0%);
 }
 
 /* Headings */
@@ -110,15 +106,23 @@ h3 {
     color: #000;
 }
 
-/* Icons */
+/*Company Icons */
 .fa, .fas {
-    color: #312425;
+    color: #f742a8;
+    margin-top: 20px;
 }
 
-/* Icons titles */
+/* Company Icons titles */
 h5 {
-    color: #312425;
+    color: #fff;
 }
+
+/* Company Icons titles */
+.card-company .card {
+    color: #fff;
+    background-color: #000;
+}
+
 
 /* Events slider indicators */
 .events-indicators{
@@ -146,4 +150,38 @@ h5 {
 /* Gallery modals*/
 .modal-footer>* {
     color: #f742a8;
+}
+
+/* Footer */
+.footer{
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #000;
+    color: #fff;
+}
+
+/*Footer Icons */
+.footer .fas {
+    color: #f742a8;
+}
+
+/*Footer Icons */
+.footer .fab {
+    color: #f742a8;
+}
+
+/*Footer Icons */
+.fab:hover{
+    color: #fff;
+}
+
+/*Footer text */
+.footer-text a {
+    color: #68cec3;
+}
+
+/*Footer text */
+.footer-text {
+    margin-top: 20px;
+    margin-bottom: 30px;
 }

@@ -17,12 +17,13 @@
 	<title>Singular Artists</title>
 </head>
 
+<!--Implemented Scrollspy feature from Bootstrap https://getbootstrap.com/docs/4.5/components/scrollspy/ -->
 <body data-spy="scroll" data-target="#myNavbar" data-offset="0">
 
 	<!-- START OF NAVBAR Took inspiration from this snippet as was having issues trying to connect the previous version of the fixed navbar and carousel. After thorough research decide to use some of the code from this link with my own customizations. https://www.divinector.com/2019/07/bootstrap-4-navbar-with-slider-source.html -->
 
 	<header>
-		<nav id="myNavbar" class="navbar navbar-expand-md navbar-light fixed-top text-dark">
+		<nav id="myNavbar" class="navbar navbar-expand-md navbar-light fixed-top">
 			<a class="navbar-brand"
 				href="#"><img src="assets/images/sa-logo.png" height="46" alt="singularlogo"></a>
 
@@ -42,7 +43,7 @@
 							<a class="nav-link" href="#events">EVENTS</a>
 						</li>
 					</ul>
-					<button class="btn btn-outline-dark my-2 my-sm-0" type="button">GET IN TOUCH</button>
+					<a href="#contact" class="btn btn-outline-dark my-2 my-sm-0" type="button">GET IN TOUCH</a>
 				</div>
 		</nav>
 	</header>
@@ -94,7 +95,7 @@
 
 		<!-- START OF COMPANY SECTION-->
 
-		<section id="#whoweare" class="jumbotron text-center">
+		<section id="whoweare" class="jumbotron text-center">
 			<div class="container">
 				<h3>We bring together artists and fans
 					to create memorable live events.</h3>
@@ -102,39 +103,57 @@
 					<p>	<img src="assets/images/singularpromoters.jpg" class="img-fluid" alt="companyimage">
       </p>
 
-					<div class="container">
-						<div class="row text-center">
-							<div class="col-md-4">
-								<i class="fas fa-flag fa-2x"></i>
-								<h5>IRELAND'S LEADING INDEPENDENT MUSIC PROMOTER</h5>
-								<p>Singular Artists is an exciting and credible independent event promotions company
+
+<div class="card-company">
+         <div class="row">    
+                <div class="col-md-4" style="float:left">
+          <div class="card mb-4 shadow-sm">
+               <i class="fas fa-flag fa-2x"></i>    
+          <div class="card-body">
+                <h5 class="card-title">IRELAND'S TOP INDEPENDENT PROMOTER</h5>
+                <p class="card-text">Singular Artists is an exciting and credible independent music promotions company
 									encompassing booking and management services. The added strength of international
 									partners Kilimanjaro Live and DEAG elevates a whole new level of excitement to the
 									venture.</p>
-									</div><!-- /.col-md-4 -->
-							<div class="col-md-4">
-								<i class="fas fa-history fa-2x"></i>
-								<h5>30+ YEARS OF INDUSTRY EXPERTISE</h5>
-								<p>The company comprises of three experienced promoters, Fin O’Leary, Brian Hand and
+          </div>
+          </div>
+        </div>
+
+							<div class="col-md-4" style="float:left">
+          <div class="card mb-4 shadow-sm">
+              <i class="fas fa-history fa-2x"></i>  
+          <div class="card-body">
+                <h5 class="card-title">30+ YEARS OF INDUSTRY EXPERTISE</h5>
+                <p class="card-text">The company comprises of three experienced promoters, Fin O’Leary, Brian Hand and
 									Simon Merriman, who whilst at Aiken Promotions had helped the company grow its
 									reputation and roster in the Irish live music business. With over 30 years of
 									combined experience and expertise, the dynamic team have firmly cemented their place
-									in the industry. </p>
-									</div><!-- /.col-md-4 -->
-							<div class="col-md-4">
-								<i class="fas fa-microphone-alt fa-2x"></i>
-								<h5>ARTIST-FIRST ETHOS</h5>
-								<p>Singular Artists has built the foundations of the company on an ethos that the trio
+									in the industry.</p>
+          </div>
+          </div>
+        </div>
+
+							<div class="col-md-4" style="float:left">
+          <div class="card mb-4 shadow-sm">
+                <i class="fas fa-microphone-alt fa-2x"></i> 
+          <div class="card-body">
+                <h5 class="card-title">ARTIST FIRST ETHOS</h5>
+                <p class="card-text">Singular Artists has built the foundations of the company on an ethos that the trio
 									all believe in – a mission of putting the artist first. They proudly represent a
 									number of artists internationally as well as using their long-established
 									relationships to source and provide talent for venues, festivals and events
 									worldwide.</p>
-									</div><!-- /.col-md-4 -->
-						</div><!-- /.row -->
-					</div><!-- /.container -->
-
-					<a href="#" class="btn btn-outline-dark my-2">LEARN MORE ABOUT WHO WE REPRESENT</a>
-			</div>
+          </div>
+          </div>
+        </div>
+				
+				</div>
+                  </div>
+            
+				
+					<a href="#whowerepresent" class="btn btn-outline-dark my-2">LEARN MORE ABOUT WHO WE REPRESENT</a>
+			
+           </div>
 		</section>
 
 		<!-- END OF COMPANY SECTION -->
@@ -573,7 +592,7 @@ The super cool Irish singer-songwriter introduces an accomplished debut full of 
           <div class="modal-body mb-0 p-0">
 
             <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HZ4bTlHjA_I""
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HZ4bTlHjA_I"
                 allowfullscreen></iframe>
             </div>
 
@@ -927,7 +946,7 @@ The Galway singer-songwriter introduces her transcendent debut album to the nati
 
 
 
-        <a href="#" class="btn btn-outline-dark my-2">CHECK OUT OUR UPCOMING EVENTS</a>
+        <a href="#events" class="btn btn-outline-dark my-2">CHECK OUT OUR UPCOMING EVENTS</a>
 			</div>
 
 		</section>
@@ -1006,12 +1025,7 @@ The Galway singer-songwriter introduces her transcendent debut album to the nati
           </div>
           </div>
         </div>
-
-
-
-							
-
-							
+	
 
 						</div>
 						<!--/.First slide-->
@@ -1128,7 +1142,7 @@ The Galway singer-songwriter introduces her transcendent debut album to the nati
                 	<!-- END OF ARTIST CAROUSEL SECTION -->
 
 
-				<a href="#" class="btn btn-outline-dark my-2">WANT TO KNOW MORE?</a>
+				<a href="#contact" class="btn btn-outline-dark my-2">WANT TO KNOW MORE?</a>
 			</div>
 
     </section>
@@ -1138,8 +1152,9 @@ The Galway singer-songwriter introduces her transcendent debut album to the nati
 
 		<!-- START OF CONTACT FORM https://getbootstrap.com/docs/4.0/components/forms/#form-groups -->
 
-		<section class="jumbotron text-center">
+<section id="contact" class="jumbotron text-center">
 			<div class="container">
+
 				<h3>Hey, let's chat!</h3>
 				<p class="lead text-tagline">Looking to join the club and headline as a Singular Artist? Perhaps you are
 					looking to book one of our acts for your venue? Or maybe you just see something here you like? Let's
@@ -1178,18 +1193,8 @@ The Galway singer-songwriter introduces her transcendent debut album to the nati
 
 		<!-- FOOTER Took slight inspiration for the icons and links. Made significant postion changes. https://bootstraptor.com/snippets/bootstrap-4-snippet-footer-links-logo/ -->
 
-		<footer class="container">
-			<section class="pt-5 pb-5">
-				<div class="footer ">
-					<div class="     pt-5 pb-5">
-						<div class="container">
-							<div class="row  ">
-
-								<br style="clear:both" class="hidden-sm-up">
-
-            </div>
-
-								<hr>
+				<div class="footer">
+                
 
 								<div class="row text-center">
 									<div class="col-md-8 text-sm-center text-md-left text-lg-left">
@@ -1197,8 +1202,8 @@ The Galway singer-songwriter introduces her transcendent debut album to the nati
 											hello@singularartists.ie
 											<i class="fas fa-phone fa-lg" aria-hidden="true"></i> 01 234 5678</p>
 									</div>
-									<div class="col-md-4 text-sm-center text-md-right text-lg-right">
-										<div class="mb-1 mr-3 align-self-right pt-0 d-inline-block">
+									<div class="col-md-4 text-sm-center text-md-right text-lg-right mt-3">
+										<div class="mb-1 align-self-right pt-0 d-inline-block">
 											<a href="#" role="button"
 												class=" btn-white p-2 btn btn-round btn-rised btn-icon x"><i class="fab fa-twitter fa-lg color-light" aria-hidden="true"></i></a>
 											<a href="#" role="button"
@@ -1208,17 +1213,15 @@ The Galway singer-songwriter introduces her transcendent debut album to the nati
 											<a href="#" role="button"
 												class="btn-white p-2 btn btn-rised btn-round btn-icon  "><i class="fab fa-spotify fa-lg" aria-hidden="true"></i></a>
 										</div>
+                                        </div>
+                                        </div>
+                                        <div class="footer-text"><p class="float-right"><a href="#">Back to top</a></p>
+					<p>© Singular Artists 2019 · Created by NC Media · </p>
 									</div>
-								</div>
 							</div>
-						</div>
-					</div>
-
-					<p class="float-right"><a href="#">Back to top</a></p>
-					<p>© Singular Artists 2019. Created by NC Media. · <a href="#">Privacy</a> · <a href="#">Terms</a>
-					</p>
-			</section>
-		</footer>
+                 
+					
+                 
 	</main>
 
 

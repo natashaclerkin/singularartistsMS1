@@ -1,8 +1,15 @@
-/* CSS RESET? */
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:200,300,400,500,600,700&display=swap');
 
 body{
-    color: #000;
     font-family: 'Montserrat', sans-serif;
+}
+
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
@@ -35,8 +42,6 @@ body{
     margin-right: 10px;
     letter-spacing: 1px;
 }
-
-
 
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {

@@ -67,13 +67,13 @@ Due to time restraints I was unable to include the following but hope to impleme
 
 ### Structure 
 
-I decided to create a five page website incorporating only the necessary actions and info required by the ideal users to reduce cognitive overload. 
-The navigation bar would include the links to all four pages on the right and the company logo/home link placed on the left to follow industry standard and create familiarity with the user. 
+I decided to create a single page website incorporating only the necessary actions and info required by the ideal users to reduce cognitive overload. 
+The navigation bar would include the links to all four sections on the right and the company logo/home link placed on the left to follow industry standard and create familiarity with the user. 
 This allows the user to easily learn and understand the structure and effortlessly navigate through the site when using it for the first time. 
-I decided that the links would also be strategically placed in the intended journey the user should follow. i.e. Home->About->Artists->Events->Contact. This would allow the user to learn about the experience promoter, their credibility in the industry with the artists they represent, the large number of events presented gaining the trust of the user propelling them towards the contact page. 
+I decided that the links would also be strategically placed in the intended journey the user should follow. i.e. About->Artists->Events->Contact. This would allow the user to learn about the experience the promoter has, their credibility in the industry with the artists they represent, the large number of events presented gaining the trust of the user propelling them towards the contact page. 
  
 ### Skeleton
-- [Wireframes](/assets/wireframes/wireframes.pdf "Homepage Wireframe"): Website contains 5 pages; Home, About, Artists, Events and a Contact Page.
+- [Wireframe](assets/wireframes/wireframes.pdf "Homepage Wireframe"): Website contains 5 pages; Home, About, Artists, Events and a Contact Page.
 - Fixed navigation bar and footer. Nav bar contains links pointing to each individual page and the footer contains contact info and Social Media icons. 
 
 ### Surface 

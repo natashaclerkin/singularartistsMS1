@@ -6,38 +6,29 @@ body{
     letter-spacing: 2px;
 }
 
-
-h6 {
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
 /* General */
-
 * {
     margin: 0;
     padding: 0;
 }
 
-p{
-    letter-spacing: normal;
-}
-
-.form-check-label {
-    letter-spacing: normal;
-}
-
-.lead {
-    margin-bottom: 30px;
-    margin-top: -15px;
-}
-
+/* Container */
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     width: 100%;
     padding-right: 10%;
     padding-left: 10%;
     margin-right: auto;
     margin-left: auto;
+}
+
+p{
+    letter-spacing: normal;
+}
+
+/* Sub-Headings */
+.lead {
+    margin-bottom: 30px;
+    margin-top: -15px;
 }
 
 /* Navbar */
@@ -62,7 +53,7 @@ p{
     letter-spacing: 2px;
 }
 
-
+/* Navlinks */
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color:#ffffff;
 }
@@ -185,6 +176,17 @@ h5 {
 /* Gallery modals*/
 .modal-footer>* {
     color: #f742a8;
+}
+
+/* Event card title */
+h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Checkbox Text */
+.form-check-label {
+    letter-spacing: normal;
 }
 
 /* Footer */

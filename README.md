@@ -4,9 +4,9 @@
 
 A website created to showcase Irish promoter Singular Artists' work in the Event industry. The website highlights various clients the company are representing and their wealth of experience in the industry. 
 
-The site features an about page, a page listing all clients represented, an events listing page and a contact page. There is also a social media plugin to display active promotion to users. 
+The site features an about section, a section listing all clients represented, an events listing section and a contact section. There is also a social media plugin to display active promotion to users. 
 
-The primary goal of the website is to inform and direct users to the contact page. As a B2B website, the aim is to convey credibility and assurance to the user. The website layout and navigation structure will guide the user to company information and clientlist highlighting it's reliability and expertise. These pages along with the CTA's and live chat popups will lead the user towards the contact page.  
+The primary goal of the website is to inform and direct users to the contact form. As a B2B website, the aim is to convey credibility and assurance to the user. The website layout and navigation structure will guide the user to company information and clientlist highlighting it's reliability and expertise. These sections along with the CTA's and live chat popups will lead the user towards the contact form.  
 
 **The business goals of this website are:**
 
@@ -63,18 +63,18 @@ To achieve the strategy goals, I wanted to include the following features in thi
 
 Due to time restraints I was unable to include the following but hope to implement the following features in a future release:
 - Blog - To provide updates of upcoming events, and artists' news.
-- Live Chat app - To provide instant connection between the user and company with visibility on each page.  
+- Live Chat app - To provide instant connection between the user and company with high visibility on the site.  
 
 ### Structure 
 
 I decided to create a single page website incorporating only the necessary actions and info required by the ideal users to reduce cognitive overload. 
 The navigation bar would include the links to all four sections on the right and the company logo/home link placed on the left to follow industry standard and create familiarity with the user. 
 This allows the user to easily learn and understand the structure and effortlessly navigate through the site when using it for the first time. 
-I decided that the links would also be strategically placed in the intended journey the user should follow. i.e. About->Artists->Events->Contact. This would allow the user to learn about the experience the promoter has, their credibility in the industry with the artists they represent, the large number of events presented gaining the trust of the user propelling them towards the contact page. 
+I decided that the links would also be strategically placed in the intended journey the user should follow. i.e. About->Artists->Events->Contact. This would allow the user to learn about the experience the promoter has, their credibility in the industry with the artists they represent, the large number of events presented gaining the trust of the user propelling them towards the contact section. 
  
 ### Skeleton
-- [Wireframe](assets/wireframes/wireframes.pdf "Homepage Wireframe"): Website contains 5 pages; Home, About, Artists, Events and a Contact Page.
-- Fixed navigation bar and footer. Nav bar contains links pointing to each individual page and the footer contains contact info and Social Media icons. 
+- [Wireframes](assets/wireframes/wireframes.pdf "Singular Artists Wireframe"): Website contains 4 sections; About (Who We Are), Artists (Who We Represent), Events and a Get In Touch section. I had originally thought about creating a website with a homepage and 4 separate pages but later decided to compile all sections into a single page website to create a better flow.
+- Fixed navigation bar and footer. Nav bar contains links pointing to each individual section and the footer contains contact, copyright info and Social Media icons. I also wanted to add a link to allow the user to jump back to the top instead of scrolling to help with UX.
 
 ### Surface 
 
@@ -151,14 +151,62 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
-The text for the About Page was copied from:
+The text for the About Section was copied from:
 - the [Nialler9 article](https://nialler9.com/new-irish-music-promotions-company-singular-artists)
 - the [Pollstar article](https://www.pollstar.com/article/singular-artists-new-irish-promoter-in-town-backed-by-kilimanjarodeag-146376 )
 - the [IQ article](https://www.iq-mag.net/2020/09/deag-launches-ireland-singular-artists)
 
  
 ### Media
-- The photos used in this site were obtained from ...
+ The images used in this site were obtained from the following sources:
+
+- Singular Artists Company Logo - [from Singular Artists' Facebook Page](https://www.facebook.com/wearesingularartists/photos/a.100978908278580/118419983201139/?type=3&theater)
+- Singular Artists Company Directors Image - [from Pollstar](https://www.pollstar.com/article/singular-artists-new-irish-promoter-in-town-backed-by-kilimanjarodeag-146376 )
+- Dermot Kennedy Carousel Image - [from Ambient Light](https://www.ambientlightblog.com/dermot-kennedy-auckland-nz-2019/dermot-kennedy-feature/)
+- Picture This Carousel Image - [from Golden Plec](https://www.goldenplec.com/galleries/picture-this-at-3arena/#image-18)
+- Fontaines DC Carousel Image - [from Pollstar](https://www.pollstar.com/article/first-etep-2019-results-already-10-confirmed-festival-slots-for-fontaines-dc-137581)
+- Fontaines DC Gallery Image - [from The Face](https://theface.com/music/fontaines-d-c-punk-poetry-a-heros-death-dogrel-interview-grian-chatten)
+- Dermot Kennedy Gallery Image - [from Irish Central](https://www.irishcentral.com/culture/entertainment/irish-singer-dermot-kennedy)
+- Picture This Gallery Image - [from Official Charts](https://www.officialcharts.com/chart-news/picture-this-top-10-biggest-songs-on-the-official-irish-singles-chart__25912/)
+- Hall & Oates Gallery Image - [from Parade](https://parade.com/983201/laurawhitmore/hall-and-oates-2020-tour-dates/)
+- Alanis Morissette Gallery Image - [from Hello!](https://ca.hellomagazine.com/celebrities/02020081957212/alanis-morissette-skincare-routine-using-the-body-shop-since-1990s)
+- The Dubliners Gallery Image - [from Festivaly](https://festivaly.eu/en/artists/the-dublin-legends/654005)
+- Sam Wickens Gallery & Event Listing Image - [from Sam Wickens Twitter Account](https://twitter.com/samwickensmusic)
+- Ailbhe Reddy Gallery & Event Listing Image - [from Read Dork](https://www.readdork.com/features/getting-to-know-ailbhe-reddy)
+- Boy Pablo Gallery & Event Listing Image - [from Teco Apple](https://tecoapple.com/2020/07/13/boy-pablo-lanca-o-single-honey-e-o-b-side-jds-song/boypablohoneya020/)
+- Reevah Gallery & Event Listing Image - [from XS Noise](https://www.xsnoize.com/interview-with-derry-based-americana-folk-artist-reevah/)
+- Novo Amor Gallery & Event Listing Image - [from Mr Life Day](https://mrlifeday.com/novo-amor-birthplace-and-interview/)
+- Pillow Queens Gallery & Event Listing Image - [from Giglist](https://giglist.com/buzz/article/review-pillow-queens-handsome-wife)
+- Elderbrook Gallery & Event Listing Image - [from Official Charts](https://www.officialcharts.com/chart-news/elderbrook-explores-the-power-of-human-connection-on-his-debut-album-why-do-we-shake-in-the-cold-first-listen-preview__31001/)
+- Maija Sofia Gallery & Event Listing Image - [from Strange Brew](https://www.strangebrew.ie/new-events-1/2020/2/20/maija-sofia)
+- Rhys Lewis Gallery & Event Listing Image - [from The Evening Standard](https://www.standard.co.uk/showbiz/celebrity-news/rhys-lewis-my-songs-are-so-personal-it-can-be-awkward-for-the-people-in-them-a3427356.html)
+- Fontaines Gallery & Event Listing Image - [from Pollstar](https://www.pollstar.com/article/first-etep-2019-results-already-10-confirmed-festival-slots-for-fontaines-dc-137581)
+
+ The video links used in this site were obtained from the following sources:
+- Fontaines DC Modal Video - [from Youtube](https://theface.com/music/fontaines-d-c-punk-poetry-a-heros-death-dogrel-interview-grian-chatten)
+- Dermot Kennedy Modal Video - [from Youtube](https://www.irishcentral.com/culture/entertainment/irish-singer-dermot-kennedy)
+- Picture This Modal Video - [from Youtube](https://www.officialcharts.com/chart-news/picture-this-top-10-biggest-songs-on-the-official-irish-singles-chart__25912/)
+- Hall & Oates Modal Video - [from Youtube](https://parade.com/983201/laurawhitmore/hall-and-oates-2020-tour-dates/)
+- Alanis Morissette Modal Video - [from Youtube](https://ca.hellomagazine.com/celebrities/02020081957212/alanis-morissette-skincare-routine-using-the-body-shop-since-1990s)
+- The Dubliners Modal Video - [from Youtube](https://festivaly.eu/en/artists/the-dublin-legends/654005)
+- Sam Wickens Modal Video - [from Youtube](https://twitter.com/samwickensmusic)
+- Ailbhe Reddy Modal Video - [from Youtube](https://www.readdork.com/features/getting-to-know-ailbhe-reddy)
+- Boy Pablo Modal Video - [from Youtube](https://tecoapple.com/2020/07/13/boy-pablo-lanca-o-single-honey-e-o-b-side-jds-song/boypablohoneya020/)
+- Reevah Modal Video - [from Youtube](https://www.xsnoize.com/interview-with-derry-based-americana-folk-artist-reevah/)
+- Novo Amor Modal Video - [from Youtube](https://mrlifeday.com/novo-amor-birthplace-and-interview/)
+- Pillow Queens Modal Video - [from Youtube](https://giglist.com/buzz/article/review-pillow-queens-handsome-wife)
+- Elderbrook Modal Video - [from Youtube](https://www.officialcharts.com/chart-news/elderbrook-explores-the-power-of-human-connection-on-his-debut-album-why-do-we-shake-in-the-cold-first-listen-preview__31001/)
+- Maija Sofia Modal Video - [from Youtube](https://www.strangebrew.ie/new-events-1/2020/2/20/maija-sofia)
+- Rhys Lewis Modal Video - [from Youtube](https://www.standard.co.uk/showbiz/celebrity-news/rhys-lewis-my-songs-are-so-personal-it-can-be-awkward-for-the-people-in-them-a3427356.html)
+
+
+
+Font Awesome
+Tinypng
+
+
+
+
 
 ### Acknowledgements
 

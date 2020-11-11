@@ -2,8 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:200,300,400,500,600,700&display=swap');
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat','Open Sans', sans-serif;
     letter-spacing: 2px;
+}
+
+
+h6 {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 /* General */
@@ -11,6 +17,19 @@ body{
 * {
     margin: 0;
     padding: 0;
+}
+
+p{
+    letter-spacing: normal;
+}
+
+.form-check-label {
+    letter-spacing: normal;
+}
+
+.lead {
+    margin-bottom: 30px;
+    margin-top: -15px;
 }
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
@@ -160,7 +179,7 @@ h5 {
 
 /* Artist cards*/
 .card-title{
-    font-weight: bold;
+    font-weight: uppercase;
 }
 
 /* Gallery modals*/

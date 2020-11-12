@@ -173,9 +173,15 @@ h5 {
     font-weight: uppercase;
 }
 
-/* Gallery modals*/
+/* Gallery modals footer*/
 .modal-footer>* {
     color: #f742a8;
+}
+
+/* Gallery modal social media icons hover*/
+.modal-footer a:hover {
+    color: #000;
+    text-decoration: underline;
 }
 
 /* Event card title */

@@ -98,6 +98,7 @@ I wanted the brand colours to feature as the accent colours in the CTA's to conn
 - Events - allows users X to achieve Y, by having them fill out Z
 - Contact - allows users X to achieve Y, by having them fill out Z
 
+
 ###In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
@@ -113,6 +114,10 @@ In this section, you should mention all of the languages, frameworks, libraries,
 1. HTML
 2. CSS
 3. Bootstrap CHECK VERSION
+
+Font Awesome
+Tinypng
+
 
 ## Testing
 
@@ -136,14 +141,30 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://natashaclerkin.github.io/singularartistsMS1 into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+
+My project was developed using the IDE, Gitpod. I deployed my website from the GitHub repository to GitHub Pages using the following steps:
+
+1. I selected the Settings tab in my GitHub repository.
+![alt text](assets/wireframes/githubpages-1.png "GitHub Pages Deployment Instructions")
+
+2. I located the GitHub Pages section and chose the Master branch as the source to enable GitHub Pages.
+![alt text](assets/wireframes/githubpages-2.png "GitHub Pages Deployment Instructions")
+
+3. Once I saved the Master Branch as the source, the page refreshed and I located the URL to the deployed website.
+![alt text](assets/wireframes/githubpages-3.png "GitHub Pages Deployment Instructions")
+
+4. I then followed the link to observe and verify the published GitHub page. 
+![alt text](assets/wireframes/githubpages-4.png "GitHub Pages Deployment Instructions")
+
+
+
+
+
+
 
 
 ## Credits
@@ -201,13 +222,8 @@ The text for the About Section was copied from:
 
 
 
-Font Awesome
-Tinypng
-
-
-
-
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+I received inspiration for this project from my ticketing client, Singular Artists who have yet to create a company website.
+I would like to thank my mentor Guido Cecilio forhis guidance and support and Jim Morel on Slack.

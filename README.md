@@ -104,19 +104,31 @@ I wanted the brand colours to feature as the accent colours in the CTA's to conn
 ### Features Left to Implement
 ###- Another feature idea
 
- Technologies Used
+### Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
 
-1. HTML
-2. CSS
-3. Bootstrap CHECK VERSION
 
+In the construction of this project I have used the following technologies:
+- HTML and CSS programming languages
+- Bootstrap v4.5.3
+- GitPod - 
+- Google Fonts
+- Youtube
+- jQuery
+The project uses jQuery to reference Javascript needed for the responsive navbar, Vimeo video and Fancybox gallery modal.
+Popper.js
+The project uses Popper,js reference Javascript needed for the responsive navbar.
+AutoPrefixe
 Font Awesome
 Tinypng
+balsamiq
+GitHub
+photoshop
+
 
 
 ## Testing

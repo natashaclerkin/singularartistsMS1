@@ -73,14 +73,14 @@ This allows the user to easily learn and understand the structure and effortless
 I decided that the links would also be strategically placed in the intended journey the user should follow. i.e. About->Artists->Events->Contact. This would allow the user to learn about the experience the promoter has, their credibility in the industry with the artists they represent, the large number of events presented gaining the trust of the user propelling them towards the contact section. 
  
 ### Skeleton
-- [Wireframes](assets/wireframes/wireframes.pdf "Singular Artists Wireframe"): Website contains 4 sections; About (Who We Are), Artists (Who We Represent), Events and a Get In Touch section. I had originally thought about creating a website with a homepage and 4 separate pages but later decided to compile all sections into a single page website to create a better flow.
+- [Wireframes](assets/wireframes/wireframes.pdf "Singular Artists Wireframes"): Website contains 4 sections; About (Who We Are), Artists (Who We Represent), Events and a Get In Touch section. I had originally thought about creating a website with a homepage and 4 separate pages but later decided to compile all sections into a single page website to create a better flow.
 - Fixed navigation bar and footer. Nav bar contains links pointing to each individual section and the footer contains contact, copyright info and Social Media icons. I also wanted to add a link to allow the user to jump back to the top instead of scrolling to help with UX.
 
 ### Surface 
 
 The company logo incorporates the vibrant dual colours of white and bright pink. 
 The promoters selected the striking colours to convey a sense of confidence and excitement as a reflection of their industry.
-I wanted the brand colours to feature as the accent colours in the CTA's to connect the brand with the actions taken by the user. To allow the CTA's and brand colours to stand out and gain the attention of the user, I wanted to keep the rest of the site monochrome with a white background and black and grey text. This also allows the website to appear less cluttered and minimalistic adding to the overall UX. This color scheme was chosen to create a sleek and modern feel in keeping with the brand.
+I wanted the brand colours to feature as the accent colours in the CTA's to connect the brand with the actions taken by the user. To allow the CTA's and brand colours to stand out and gain the attention of the user, I wanted to keep the majority of the site monochrome with black and white text and teal to tie the colours together. This also allows the website to appear less cluttered and minimalistic adding to the overall UX. This color scheme was chosen to create a sleek and modern feel in keeping with the brand.
 
  typography and design elements will be used? 
 
@@ -98,36 +98,53 @@ I wanted the brand colours to feature as the accent colours in the CTA's to conn
 - Events - allows users X to achieve Y, by having them fill out Z
 - Contact - allows users X to achieve Y, by having them fill out Z
 
+Hover.css
+Hover.css was used on the navbar items and for social media icons in the footer.
 
 ###In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 ###- Another feature idea
 
-### Technologies Used
+# Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+In the construction of this project I have utilised the following languages, frameworks, libraries and tools:
+- **HTML** and **CSS** programming languages
+- [Bootstrap v4.5.3](https://getbootstrap.com)
+    - The project used **Bootstrap** to simplify the website layout by integrating the Modals for further artist info and the Cards for event listings and company info. Also to provide overall responsive behaviour on all devices.
+- [GitPod](https://www.gitpod.io/)
+    - I used **GitPod** as the development environment for my website. I also used Git for Version Control in the project.
+- [GitHub](https://www.github.com/)
+    - The project used **GitHub** to host my code that was created and pushed from GitPod.
+- [Balsamiq](https://balsamiq.com/)
+    - I used **Balsamiq**, the rapid low-fidelity UI wireframing tool during the prototyping phase to structure the website and it's content following best UX practices.
+- [Photoshop](https://www.photoshop.com)
+    - I created the text segment of the company logo using the image graphics editor **Photoshop** so the website/company name would be visible to the user upon landing on the site.
+- [Google Fonts](https://getbootstrap.com)
+    - **Google Fonts** was used to style the website fonts.
+- [Font Awesome](https://fontawesome.com/)
+    - I used the font & icon toolkit **Font Awesome** in the company section and the social media links to provide a definition to elements by a visual means.
+- [TinyPNG](https://tinypng.com)
+    - The **TinyPNG** website was used to reduce the file size of my image files in order to use less bandwidth and allow the website to load faster.
+- [YouTube](https://youtube.com)
+    - For all my modal music video links, I used the video-sharing platform **YouTube** to visually showcase the artist and their genre to the user. 
+- [Autoprefixer](https://autoprefixer.github.io)
+    - The project used PostCSS plugin **Autoprefixer** which parsed my CSS and added vendor prefixes to allow cross-browser compatibility and support.
+- [Color Contrast Accessibility Validator](https://color.a11y.com/)
+    - The **Color Contrast Accessibility Validator** was used to test for colour contrast on the project.
+- [W3C Markup Validation Service](https://validator.w3.org/)
+    - The **W3C Markup Validation Service** checked the markup validity of Web documents in HTML.
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+    - **W3C CSS Validation Service** was used to check the validity of my CSS in the project.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
 
 
-In the construction of this project I have used the following technologies:
-- HTML and CSS programming languages
-- Bootstrap v4.5.3
-- GitPod - 
-- Google Fonts
-- Youtube
-- jQuery
+
 The project uses jQuery to reference Javascript needed for the responsive navbar, Vimeo video and Fancybox gallery modal.
 Popper.js
 The project uses Popper,js reference Javascript needed for the responsive navbar.
-AutoPrefixe
-Font Awesome
-Tinypng
-balsamiq
-GitHub
-photoshop
+
+
 
 
 
@@ -173,18 +190,10 @@ My project was developed using the IDE, Gitpod. I deployed my website from the G
 ![alt text](assets/wireframes/githubpages-4.png "GitHub Pages Deployment Instructions")
 
 
-
-
-
-
-
-
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
-The text for the About Section was copied from:
+The text for the About Section was adapted from:
 - the [Nialler9 article](https://nialler9.com/new-irish-music-promotions-company-singular-artists)
 - the [Pollstar article](https://www.pollstar.com/article/singular-artists-new-irish-promoter-in-town-backed-by-kilimanjarodeag-146376 )
 - the [IQ article](https://www.iq-mag.net/2020/09/deag-launches-ireland-singular-artists)

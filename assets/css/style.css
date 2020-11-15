@@ -107,7 +107,8 @@ p{
 /* Carousel caption */
 h1 {
     letter-spacing: 18px;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: xxx-large;
 }
 
 /* Main carousel colour effect (Inspired code from https://stackoverflow.com/questions/15765550/darkening-an-image-with-css-in-any-shape/41076850) */

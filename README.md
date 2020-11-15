@@ -2,6 +2,8 @@
 
 ## Code Institute MS1 Project: User-Centric Frontend Development
 
+ [View website in GitHub Pages](https://natashaclerkin.github.io/singularartistsMS1/)
+
 A website created to showcase Irish promoter Singular Artists' work in the Event industry. The website highlights various clients the company are representing and their wealth of experience in the industry. 
 
 The site features an about section, a section listing all clients represented, an events listing section and a contact section. There is also a social media plugin to display active promotion to users. 
@@ -126,6 +128,8 @@ In the construction of this project I have utilised the following languages, fra
     - I used the font & icon toolkit **Font Awesome** in the company section and the social media links to provide a definition to elements by a visual means.
 - [TinyPNG](https://tinypng.com)
     - The **TinyPNG** website was used to reduce the file size of my image files in order to use less bandwidth and allow the website to load faster.
+- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln)
+    - I regularly used the **Unicorn Revealer** Chrome extension to inspect and locate where overflow was located making the debugging process alot easier. 
 - [YouTube](https://youtube.com)
     - For all my modal music video links, I used the video-sharing platform **YouTube** to visually showcase the artist and their genre to the user. 
 - [Autoprefixer](https://autoprefixer.github.io)
@@ -136,16 +140,6 @@ In the construction of this project I have utilised the following languages, fra
     - The **W3C Markup Validation Service** checked the markup validity of Web documents in HTML.
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
     - **W3C CSS Validation Service** was used to check the validity of my CSS in the project.
-
-
-
-
-The project uses jQuery to reference Javascript needed for the responsive navbar, Vimeo video and Fancybox gallery modal.
-Popper.js
-The project uses Popper,js reference Javascript needed for the responsive navbar.
-
-
-
 
 
 ## Testing
@@ -246,5 +240,5 @@ The text for the About Section was adapted from:
 
 ### Acknowledgements
 
-I received inspiration for this project from my ticketing client, Singular Artists who have yet to create a company website.
+I received inspiration for this project from my ticketing client, Singular Artists who have yet to set up their company website.
 I would like to thank my mentor Guido Cecilio forhis guidance and support and Jim Morel on Slack.

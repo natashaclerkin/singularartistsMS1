@@ -1,8 +1,8 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:200,300,400,500,600,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+        
 body{
-    font-family: 'Montserrat','Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
 }
 
@@ -29,6 +29,8 @@ p{
 .lead {
     margin-bottom: 30px;
     margin-top: -15px;
+    color: #000;
+    font-weight: 500;
 }
 
 /* Navbar */
@@ -149,12 +151,23 @@ h5 {
     background-color: #000;
 }
 
+/* Events slider controls */
+.controls-top .fas{
+    color: #000;
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
 
-/* Events slider indicators */
+/* Events slider controls */
+.controls-top .fas:hover{
+    color: #fff;
+}
+
+
+/* Events slider indicators 
 .events-indicators{
     position: relative;
-    top: 420px;
-}
+}*/
 
 /* Contact form */
 .form-row {
@@ -168,11 +181,6 @@ h5 {
     height: auto; 
 } 
 
-/* Artist cards*/
-.card-title{
-    font-weight: uppercase;
-}
-
 /* Gallery modals footer*/
 .modal-footer>* {
     color: #f742a8;
@@ -182,6 +190,12 @@ h5 {
 .modal-footer a:hover {
     color: #000;
     text-decoration: none;
+}
+
+/* Gallery modal title*/
+h4{
+    font-weight: bold;
+    text-transform: uppercase; 
 }
 
 /* Event card title */

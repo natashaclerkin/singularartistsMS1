@@ -92,7 +92,7 @@
 		</div>
 		<!-- END OF CAROUSEL -->
 
-		<!-- START OF COMPANY SECTION-->
+		<!-- START OF COMPANY SECTION -- Found the following resource to maintain equal height in cards https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns -->
 		<section id="whoweare" class="jumbotron text-center">
 			<div class="container">
 				<h3>We bring together artists and fans
@@ -103,7 +103,7 @@
 
 					<div class="card-company">
 						<div class="row">
-							<div class="col-md-4" style="float:left">
+							<div class="col-lg-4 d-flex align-items-stretch">
 								<div class="card mb-4 shadow-sm">
 									<i class="fas fa-flag fa-2x"></i>
 									<div class="card-body">
@@ -118,7 +118,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4" style="float:left">
+							<div class="col-lg-4 d-flex align-items-stretch">
 								<div class="card mb-4 shadow-sm">
 									<i class="fas fa-history fa-2x"></i>
 									<div class="card-body">
@@ -135,7 +135,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4" style="float:left">
+							<div class="col-lg-4 d-flex align-items-stretch">
 								<div class="card mb-4 shadow-sm">
 									<i class="fas fa-microphone-alt fa-2x"></i>
 									<div class="card-body">
@@ -628,21 +628,21 @@
 				 <p class="lead">Check out what's happening.</p>
 				
                 <!--Carousel Wrapper Inspiration from https://mdbootstrap.com/snippets/jquery/alexpiffero-it/696600#html-tab-view implementing own customisation-->
-				<div id="multi-item-example" class="carousel slide carousel-multi-item mb-5" data-ride="carousel">
-					<!--Indicators-->
-					<div class="events-indicators">
-						<ol class="carousel-indicators">
-							<li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-							<li data-target="#multi-item-example" data-slide-to="1"></li>
-							<li data-target="#multi-item-example" data-slide-to="2"></li>
-						</ol>
-					</div>
-					<!--/.Indicators-->
-					<!--Slides-->
+                        <div id="multi-item-example" class="carousel slide carousel-multi-item mb-5" data-ride="carousel">
+					  <!--Controls-->
+  <div class="controls-top">
+    <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-circle-left fa-2x"></i></a>
+    <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+        class="fas fa-chevron-circle-right fa-2x"></i></a>
+  </div>
+  <!--/.Controls-->
+                     
+                    <!--Slides-->
 					<div class="carousel-inner" role="listbox">
 						<!--First slide-->
 						<div class="carousel-item active">
-							<div class="col-md-4" style="float:left">
+                        
+							<div class="col-lg-4 align-items-stretch float-left">
 								<div class="card mb-4 shadow-sm">
 									<img class="card-img-top" src="assets/images/pillow-queens.jpg" alt="pillow-queens">
 									<div class="card-body">
@@ -655,7 +655,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4" style="float:left">
+							<div class="col-lg-4 align-items-stretch float-left">
 								<div class="card mb-4 shadow-sm">
 									<img class="card-img-top" src="assets/images/elderbrook.jpg" alt="elderbrook">
 									<div class="card-body">
@@ -668,7 +668,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4" style="float:left">
+							<div class="col-lg-4 align-items-stretch float-left">
 								<div class="card mb-4 shadow-sm">
 									<img class="card-img-top" src="assets/images/boy-pablo.jpg" alt="boy-pablo">
 									<div class="card-body">
@@ -685,7 +685,7 @@
 
 						<!--Second slide-->
 						<div class="carousel-item">
-							<div class="col-md-4" style="float:left">
+							<div class="col-lg-4 align-items-stretch float-left">
 								<div class="card mb-4 shadow-sm">
 									<img class="card-img-top" src="assets/images/sam-wickens.jpg" alt="sam-wickens">
 									<div class="card-body">
@@ -698,7 +698,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-4" style="float:left">
+							<div class="col-lg-4 align-items-stretch float-left">
 								<div class="card mb-4 shadow-sm">
 									<img class="card-img-top" src="assets/images/novo-amor.jpg" alt="novo-amor">
 									<div class="card-body">
@@ -711,7 +711,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4" style="float:left">
+							<div class="col-lg-4 align-items-stretch float-left">
 								<div class="card mb-4 shadow-sm">
 									<img class="card-img-top" src="assets/images/reevah.jpg" alt="reevah">
 									<div class="card-body">
@@ -728,7 +728,7 @@
 
 						<!--Third slide-->
 						<div class="carousel-item">
-							<div class="col-md-4" style="float:left">
+							<div class="col-lg-4 align-items-stretch float-left">
 								<div class="card mb-4 shadow-sm">
 									<img class="card-img-top" src="assets/images/rhys-lewis.jpg" alt="rhys-lewis">
 									<div class="card-body">
@@ -741,7 +741,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4" style="float:left">
+							<div class="col-lg-4 align-items-stretch float-left">
 								<div class="card mb-4 shadow-sm">
 									<img class="card-img-top" src="assets/images/maija-sofia.jpg" alt="maija-sofia">
 									<div class="card-body">
@@ -754,7 +754,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4" style="float:left">
+							<div class="col-lg-4 align-items-stretch float-left">
 								<div class="card mb-4 shadow-sm">
 									<img class="card-img-top" src="assets/images/ailbhe-reddy.jpg" alt="ailbhe-reddy">
 									<div class="card-body">
@@ -767,9 +767,26 @@
 									</div>
 								</div>
 							</div>
+
 						</div><!--/.Third slide-->
 					</div><!--/.Slides-->
+
+
+
+
 				</div><!--/.Carousel Wrapper-->
+
+                					<!--Indicators
+					<div class="events-indicators">
+						<ol class="carousel-indicators">
+							<li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+							<li data-target="#multi-item-example" data-slide-to="1"></li>
+							<li data-target="#multi-item-example" data-slide-to="2"></li>
+						</ol>
+					</div>
+					/.Indicators-->
+
+                
 				<!-- END OF ARTIST CAROUSEL SECTION -->
 
 				<a href="#contact" class="btn btn-outline-dark my-2">WANT TO KNOW MORE?</a>

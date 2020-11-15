@@ -181,7 +181,7 @@ h5 {
 /* Gallery modal social media icons hover*/
 .modal-footer a:hover {
     color: #000;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* Event card title */

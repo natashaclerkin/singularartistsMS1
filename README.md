@@ -11,7 +11,7 @@ Image produced from [Am I Responsive](http://ami.responsivedesign.is)
 
 ## [SingularArtists.ie](https://natashaclerkin.github.io/singularartistsMS1/) 
 
-The website is created to showcase Irish promoter Singular Artists' work in the Event industry. The website highlights various clients the company are representing and their wealth of experience in the industry. 
+The website is created to showcase Irish promoter Singular Artists' work in the event industry. The website highlights various clients the company are representing and their wealth of experience in the industry. 
 
 The site features an about section, a section listing all clients represented, an events listing section and a contact section. There is also a social media plugin to display active promotion to users. 
 
@@ -86,42 +86,38 @@ I decided that the links would also be strategically placed in the intended jour
 
 The company logo incorporates the vibrant dual colours of white and bright pink. 
 The promoters selected the striking colours to convey a sense of confidence and excitement as a reflection of their industry.
-I wanted the brand colours to feature as the hover/accent colours in the CTA's to connect the brand with the actions taken by the user. To allow the CTA's and brand colours to stand out and gain the attention of the user, I wanted to keep the majority of the site monochrome with black and white text and teal to tie the colours together. This also allows the website to appear less cluttered and minimalistic adding to the overall UX. This color scheme was chosen to create a sleek and modern feel in keeping with the brand.
-I wanted to use the Montserrat font and sans serif back up fonts to represent the brand to maintain the clean-cut image.
+I wanted the brand colours to feature as the hover/accent colours in the Call To Action buttons to connect the brand with the actions taken by the user. To allow the CTA's and brand colours to stand out and gain the attention of the user, I wanted to keep the majority of the site monochrome with black and white text and teal to tie the colours together. This also allows the website to appear less cluttered and minimalistic adding to the overall UX. This color scheme was chosen to create a sleek and modern feel in keeping with the brand.
+I wanted to use the Montserrat font and Sans-Serif back up fonts to maintain the clean-cut image.
 
 
 ## Features
 
-### In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The fully responsive website consists of the header, footer and four sections; About (Who We Are), Artists (Who We Represent), Events and the Contact Form. Each section has a H3 heading describing the section content along with a sub heading directing the user how to operate the content if required. I used Hover.css on the navlinks, CTA's and social media icons to create an enjoyable navigation experience for the user and to highlight that the website is functioning correctly. I used the Bootstrap​ plugin, Scrollspy, to automatically update links in the navigation list based on the current scroll position. I also wanted to highlight the colour of the current section with the accent colour to remind the user of their location on the site. I wanted to adjust the opacity of the navbar to allow it blend in with the site and not take too much attention away from the content. On small devices I decided to code the navbar to collapse into a hamburger menu as it is ubiquitous and users understand it's purpose on mobile sites. 
 
-### For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-I wanted to include the following features in this production release:
-- **Header** containing company logo and navigation bar
-- **Carousel** - Using emotive imagery of current artists live gigs to signify popularity and successful events. The larger the crowd displayed in the imagery, the greater the indication of high revenue/success for potential clients.
-- **Company image and info** detailing experience in the industry
-- **Clientlist** with artist bio and links to social media 
-- **List of upcoming events** linking to ticketing provider
-- Simple **Contact Form** 
-- **Footer** containing links to social media
-- Fixed navigation bar and footer. Nav bar contains links pointing to each individual section and the footer contains contact, copyright info and Social Media icons. I also wanted to add a link to allow the user to jump back to the top instead of scrolling to help with UX.
+**Header:**
+The header features a responsive navigation bar with links pointing to each individual section on the right hand side with the company logo placed on the left to follow standard industry practice. The navbar is fixed to allow the user ease of access to the site’s core functionalities and as a result generates high usabilty for the one page website. 
+It contains a Bootstrap carousel of three striking images of current artists performing live. This signifies the popularity of the artist and successful events run by the company. The larger the crowd displayed in the image, the greater the indication of high revenue and high success for potential clients. Each image points to the three informative sections of the website; who the company are, who the company represents and upcoming events. Each image includes a caption reflecting that particular section and a CTA. The header was intentionally designed with a monochrome theme to strategically draw the user's attention to the brand logo and accent colours on the CTA's. I applied the `filter` property with the values of `brightness(95%)` and `saturate(0%)` to the Carousel images to achieve this goal.
 
-### Existing Features
-- Home - allows users X to achieve Y, by having them fill out Z
-- About - allows users X to achieve Y, by having them fill out Z
-- Artists - allows users X to achieve Y, by having them fill out Z
-- Events - allows users X to achieve Y, by having them fill out Z
-- Contact - allows users X to achieve Y, by having them fill out Z
+**About (Who We Are):** 
+The About section features an image of the three company directors along with three reasons why potential clients should work with the company to create symmetry. Font Awesome icons are used above each paragragh to add visual meaning to the text. I used Bootstap cards to display the content uniformly.
 
-Hover.css
-Hover.css was used on the navbar items and for social media icons in the footer.
+**Artists (Who We Represent):**
+The Artists section features a Bootstrap Modal Gallery displaying thumbnails in a grid. When the user clicks on an image, a Modal pops up displaying a YouTube link, a short bio and links to their personal website and social media channels.
 
-###In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+**Events:**
+The Events section features a Bootstrap Carousel of Cards displaying the upcoming events of the clientbase. Each Card features the main event info and the link to the ticketing provider. The Carousel slides automatically but can be manually selected via the controls.
+
+**Contact Form:** 
+Finally once the user has gained knowledge and confidence from the content, they are presented with a simple Contact Form. The form is compiled of only the necessary information required to avoid the user losing interest and not making contact. 
+
+**Footer:**
+The footer section contains contact and copyright information as well as links to the company's Social Media channels. I also wanted to add a link to allow the user to jump back to the top instead of scrolling to further improve the overall UX.
+
 
 ### Features Left to Implement
-
-Due to time restraints I was unable to include the following but hope to implement the following features in a future release:
-- Embed social media feeds & Spotify playlist - Showcase promotional activity and create buzz for clientbase.
-- Blog - To provide updates of upcoming events, and artists' news.
+Due to time restraints I was unable to include the following features but hope to implement them in a future release:
+- Embed social media feeds & Spotify playlist - Showcase promotional activity and create buzz for the clientbase.
+- Blog - To provide updates and reviews of events, and artists' news.
 - Live Chat app - To provide instant connection between the user and company with high visibility on the site.  
 
 # Technologies Used
@@ -148,6 +144,8 @@ In the construction of this project I have utilised the following languages, fra
     - I regularly used the **Unicorn Revealer** Chrome extension to inspect and locate where overflow was located making the debugging process alot easier. 
 - [YouTube](https://youtube.com)
     - For all my modal music video links, I used the video-sharing platform **YouTube** to visually showcase the artist and their genre to the user. 
+- [Favicon.io](https://favicon.io/)
+    - **Favicon.io** was used to generate the favicons for the site.
 - [Autoprefixer](https://autoprefixer.github.io)
     - The project used PostCSS plugin **Autoprefixer** which parsed my CSS and added vendor prefixes to allow cross-browser compatibility and support.
 - [Color Contrast Accessibility Validator](https://color.a11y.com/)
@@ -257,4 +255,4 @@ The text for the About Section was adapted from:
 ### Acknowledgements
 
 I received inspiration for this project from my ticketing client, Singular Artists who have yet to set up their company website.
-I would like to thank my mentor Guido Cecilio forhis guidance and support and Jim Morel on Slack.
+I would like to thank my mentor Guido Cecilio for his guidance and support and Jim Morel on Slack.

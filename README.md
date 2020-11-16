@@ -1,14 +1,21 @@
 # Singular Artists Company Website
 
-## Code Institute MS1 Project: User-Centric Frontend Development
+## Code Institute MS1 Project in User-Centric Frontend Development 
+The brief was to develop a static front end project with a minimum three separate page areas using HTML and CSS while following UX industry standards. This website is created for educational purposes.
 
- [View website in GitHub Pages](https://natashaclerkin.github.io/singularartistsMS1/)
+[View website in GitHub Pages.](https://natashaclerkin.github.io/singularartistsMS1/) 
+ 
+![alt text](assets/wireframes/amiresponsive-image.PNG "Responsive Image") 
+ 
+Image produced from [Am I Responsive](http://ami.responsivedesign.is)
 
-A website created to showcase Irish promoter Singular Artists' work in the Event industry. The website highlights various clients the company are representing and their wealth of experience in the industry. 
+## [SingularArtists.ie](https://natashaclerkin.github.io/singularartistsMS1/) 
+
+The website is created to showcase Irish promoter Singular Artists' work in the Event industry. The website highlights various clients the company are representing and their wealth of experience in the industry. 
 
 The site features an about section, a section listing all clients represented, an events listing section and a contact section. There is also a social media plugin to display active promotion to users. 
 
-The primary goal of the website is to inform and direct users to the contact form. As a B2B website, the aim is to convey credibility and assurance to the user. The website layout and navigation structure will guide the user to company information and clientlist highlighting it's reliability and expertise. These sections along with the CTA's and live chat popups will lead the user towards the contact form.  
+The primary goal of the website is to inform and direct users to the contact form. As a B2B website, the aim is to convey credibility and assurance to the user. The website layout and navigation structure will guide the user to company information and clientlist highlighting it's reliability and expertise. These sections along with the CTA's will lead the user towards the contact form.  
 
 **The business goals of this website are:**
 
@@ -24,22 +31,7 @@ The primary goal of the website is to inform and direct users to the contact for
 - To view evidence of promotional activity such as active social media channels marketing and promoting their current clients.
 - To effortlessly find contact information to touch base with the team.
 
-
 ## UX
-
-### User Stories
-
-### -![alt](https://link) IMAGEOFEACHUSERSTORY### 
-
-1. **_As a Venue Manager,_** I want to find out the artists the promoter works with so that I can decide if there is potential to reach capacity and sell-out nights at our venue. 
-2. **_As a Venue Manager,_** I want to discover what experience the company has so that I can evaluate if they have enough expertise to work with our venue. 
-3. **_As a Venue Manager,_** I want to check out their social media channels to view their current promotional activity to see if they can successfully market events.
-4. **_As an Artist/Agent,_** I want to learn about the type of artists the promoter is working with so that I can view previous marketing strategies and the ability to potentially promote our future gigs. 
-5. **_As an Artist/Agent,_** I want to view the company history as I want to work with an experienced promoter who is well connected within the industry. 
-6. **_As a Ticketing Agent,_** I want to learn about the promoter’s artists and venues so that I can evaluate ticket sales potential. 
-7. **_As a Ticketing Agent/Artist/Agent/Venue Manager,_** I want to find out if the promoter is reputable, credible and approachable in order to potentially be able to build a long-term relationship. 
-
-### EDIT EDIT This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.EDIT EDIT ###
 
 ### Strategy
 
@@ -56,35 +48,46 @@ I wanted to incorporate the majority of elements from [Peter Morville's UX Honey
 - Evidence of promotional work
 
 #### This project is the best way to achieve their goals because:
-- Most promoter websites increase the cognitive load on the user. This website enables effortless navigation through the pages building assurance and directing the user towards the contact elements.
+Most promoter websites increase the cognitive load on the user. This website enables effortless navigation through the pages building assurance and directing the user towards the contact elements.
+
+#### User Stories
+
+1. **_As a Venue Manager,_** I want to find out the artists the promoter works with so that I can decide if there is potential to reach capacity and sell-out nights at our venue. 
+2. **_As a Venue Manager,_** I want to discover what experience the company has so that I can evaluate if they have enough expertise to work with our venue. 
+3. **_As a Venue Manager,_** I want to check out their social media channels to view their current promotional activity to see if they can successfully market events.
+4. **_As an Artist/Agent,_** I want to learn about the type of artists the promoter is working with so that I can view previous marketing strategies and the ability to potentially promote our future gigs. 
+5. **_As an Artist/Agent,_** I want to view the company history as I want to work with an experienced promoter who is well connected within the industry. 
+6. **_As a Ticketing Agent,_** I want to learn about the promoter’s artists and venues so that I can evaluate ticket sales potential. 
+7. **_As a Ticketing Agent/Artist/Agent/Venue Manager,_** I want to find out if the promoter is reputable, credible and approachable in order to potentially be able to build a long-term relationship. 
+
 
 ### Scope
 To achieve the strategy goals, I wanted to include the following features in this production release:
-- Carousel - Using emotive imagery of live gigs to signify popularity and successful events. The larger the crowd displayed in the imagery, the greater the indication of high revenue/success for potential clients.
-- Embed social media feeds & Spotify playlist - Showcase promotional activity and create buzz for clientbase.
-
-Due to time restraints I was unable to include the following but hope to implement the following features in a future release:
-- Blog - To provide updates of upcoming events, and artists' news.
-- Live Chat app - To provide instant connection between the user and company with high visibility on the site.  
+- **Header** containing company logo and navigation bar
+- **Carousel** using powerful imagery of current artists at live gigs
+- **Company image and info** detailing experience in the industry
+- **Clientlist** with artist bio and links to social media 
+- **List of upcoming events** linking to ticketing provider
+- Simple **Contact Form** 
+- **Footer** containing links to social media
 
 ### Structure 
 
 I decided to create a single page website incorporating only the necessary actions and info required by the ideal users to reduce cognitive overload. 
 The navigation bar would include the links to all four sections on the right and the company logo/home link placed on the left to follow industry standard and create familiarity with the user. 
 This allows the user to easily learn and understand the structure and effortlessly navigate through the site when using it for the first time. 
-I decided that the links would also be strategically placed in the intended journey the user should follow. i.e. About->Artists->Events->Contact. This would allow the user to learn about the experience the promoter has, their credibility in the industry with the artists they represent, the large number of events presented gaining the trust of the user propelling them towards the contact section. 
+I decided that the links would also be strategically placed in the intended journey the user should follow. i.e. About->Artists->Events->Contact. This would allow the user to learn about the experience the promoter has, their credibility in the industry with the artists they represent, the large number of events presented in order to gain the user's trust propelling them towards the contact form. 
  
 ### Skeleton
 - [Wireframes](assets/wireframes/wireframes.pdf "Singular Artists Wireframes"): Website contains 4 sections; About (Who We Are), Artists (Who We Represent), Events and a Get In Touch section. I had originally thought about creating a website with a homepage and 4 separate pages but later decided to compile all sections into a single page website to create a better flow.
-- Fixed navigation bar and footer. Nav bar contains links pointing to each individual section and the footer contains contact, copyright info and Social Media icons. I also wanted to add a link to allow the user to jump back to the top instead of scrolling to help with UX.
+**Please note the finalised website contains slight variations to the original wireframe**
 
 ### Surface 
 
 The company logo incorporates the vibrant dual colours of white and bright pink. 
 The promoters selected the striking colours to convey a sense of confidence and excitement as a reflection of their industry.
-I wanted the brand colours to feature as the accent colours in the CTA's to connect the brand with the actions taken by the user. To allow the CTA's and brand colours to stand out and gain the attention of the user, I wanted to keep the majority of the site monochrome with black and white text and teal to tie the colours together. This also allows the website to appear less cluttered and minimalistic adding to the overall UX. This color scheme was chosen to create a sleek and modern feel in keeping with the brand.
-
- typography and design elements will be used? 
+I wanted the brand colours to feature as the hover/accent colours in the CTA's to connect the brand with the actions taken by the user. To allow the CTA's and brand colours to stand out and gain the attention of the user, I wanted to keep the majority of the site monochrome with black and white text and teal to tie the colours together. This also allows the website to appear less cluttered and minimalistic adding to the overall UX. This color scheme was chosen to create a sleek and modern feel in keeping with the brand.
+I wanted to use the Montserrat font and sans serif back up fonts to represent the brand to maintain the clean-cut image.
 
 
 ## Features
@@ -92,7 +95,16 @@ I wanted the brand colours to feature as the accent colours in the CTA's to conn
 ### In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 ### For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
- 
+I wanted to include the following features in this production release:
+- **Header** containing company logo and navigation bar
+- **Carousel** - Using emotive imagery of current artists live gigs to signify popularity and successful events. The larger the crowd displayed in the imagery, the greater the indication of high revenue/success for potential clients.
+- **Company image and info** detailing experience in the industry
+- **Clientlist** with artist bio and links to social media 
+- **List of upcoming events** linking to ticketing provider
+- Simple **Contact Form** 
+- **Footer** containing links to social media
+- Fixed navigation bar and footer. Nav bar contains links pointing to each individual section and the footer contains contact, copyright info and Social Media icons. I also wanted to add a link to allow the user to jump back to the top instead of scrolling to help with UX.
+
 ### Existing Features
 - Home - allows users X to achieve Y, by having them fill out Z
 - About - allows users X to achieve Y, by having them fill out Z
@@ -106,12 +118,16 @@ Hover.css was used on the navbar items and for social media icons in the footer.
 ###In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-###- Another feature idea
+
+Due to time restraints I was unable to include the following but hope to implement the following features in a future release:
+- Embed social media feeds & Spotify playlist - Showcase promotional activity and create buzz for clientbase.
+- Blog - To provide updates of upcoming events, and artists' news.
+- Live Chat app - To provide instant connection between the user and company with high visibility on the site.  
 
 # Technologies Used
 
 In the construction of this project I have utilised the following languages, frameworks, libraries and tools:
-- **HTML** and **CSS** programming languages
+- **HTML5** and **CSS3** programming languages
 - [Bootstrap v4.5.3](https://getbootstrap.com)
     - The project used **Bootstrap** to simplify the website layout by integrating the Modals for further artist info and the Cards for event listings and company info. Also to provide overall responsive behaviour on all devices.
 - [GitPod](https://www.gitpod.io/)

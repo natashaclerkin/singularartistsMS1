@@ -117,10 +117,11 @@ filter: brightness(95%) saturate(0%);
 }
 
 /* Headings */
-h3 {
+h2 {
     text-transform: uppercase;
     margin: 30px;
-    letter-spacing: 2px;
+    font-size: 26px;
+
 }
 
 /* Section BG color*/
@@ -141,8 +142,10 @@ h3 {
 }
 
 /* Company Icons titles */
-h5 {
+.about h3 {
     color: #fff;
+    font-size: 20px;
+    font-weight: normal;
 }
 
 /* Company Icons titles */
@@ -193,20 +196,23 @@ h5 {
 }
 
 /* Gallery modal title*/
-h4{
+.modal-footer h3{
     font-weight: bold;
     text-transform: uppercase; 
+    font-size: 18px;
 }
 
 /* Event card title */
-h6 {
+h3 {
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 16px;
 }
 
 /* Checkbox Text */
 .form-check-label {
     letter-spacing: normal;
+    color: #000;
 }
 
 /* Footer */

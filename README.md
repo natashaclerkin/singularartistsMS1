@@ -99,7 +99,8 @@ The header features a responsive navigation bar with links pointing to each indi
 It contains a Bootstrap carousel of three striking images of current artists performing live. This signifies the popularity of the artist and successful events run by the company. The larger the crowd displayed in the image, the greater the indication of high revenue and high success for potential clients. Each image points to the three informative sections of the website; who the company are, who the company represents and upcoming events. Each image includes a caption reflecting that particular section and a CTA. The header was intentionally designed with a monochrome theme to strategically draw the user's attention to the brand logo and accent colours on the CTA's. I applied the `filter` property with the values of `brightness(95%)` and `saturate(0%)` to the Carousel images to achieve this goal.
 
 **About (Who We Are):** 
-The About section features an image of the three company directors along with three reasons why potential clients should work with the company to create symmetry. Font Awesome icons are used above each paragragh to add visual meaning to the text. I used Bootstap cards to display the content uniformly.
+The About section features an image of the three company directors along with three reasons why potential clients should work with the company to create symmetry. Font Awesome icons and captions are used above each paragragh to add visual meaning to the text and display the information in a way that is faster
+to comprehend should the user not wish to read the entire paragraghs. I used Bootstap cards to display the content uniformly.
 
 **Artists (Who We Represent):**
 The Artists section features a Bootstrap Modal Gallery displaying thumbnails in a grid. When the user clicks on an image, a Modal pops up displaying a YouTube link, a short bio and links to their personal website and social media channels.

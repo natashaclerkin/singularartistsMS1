@@ -92,7 +92,7 @@ I wanted to use the Montserrat font and Sans-Serif back up fonts to maintain the
 
 ## Features
 
-The fully responsive website consists of the header, footer and four sections; About (Who We Are), Artists (Who We Represent), Events and the Contact Form. Each section has a H3 heading describing the section content along with a sub heading directing the user how to operate the content if required. I used Hover.css on the navlinks, CTA's and social media icons to create an enjoyable navigation experience for the user and to highlight that the website is functioning correctly. I used the Bootstrap​ plugin, Scrollspy, to automatically update links in the navigation list based on the current scroll position. I also wanted to highlight the colour of the current section with the accent colour to remind the user of their location on the site. I wanted to adjust the opacity of the navbar to allow it blend in with the site and not take too much attention away from the content. On small devices I decided to code the navbar to collapse into a hamburger menu as it is ubiquitous and users understand it's purpose on mobile sites. 
+The fully responsive website consists of the header, footer and four sections; About (Who We Are), Artists (Who We Represent), Events and the Contact Form. Each section has a H3 heading describing the section content along with a sub heading directing the user how to operate the content if required. I used Hover.css on the navlinks, CTA's and social media icons to create an enjoyable navigation experience for the user and to highlight that the website is functioning correctly. I used the Bootstrap​ plugin, Scrollspy, to automatically update links in the navigation list based on the current scroll position. I also wanted to highlight the colour of the current section with the accent colour to remind the user of their location on the site. I wanted to adjust the opacity of the navbar to allow it blend in with the site and not take too much attention away from the content. On small devices I decided to code the navbar to collapse into a hamburger menu as it is ubiquitous and users understand it's purpose on mobile sites. All sections are linked by CTA's at the bottom of their section guiding the user towards the contact form once they have learnt about the company.
 
 **Header:**
 The header features a responsive navigation bar with links pointing to each individual section on the right hand side with the company logo placed on the left to follow standard industry practice. The navbar is fixed to allow the user ease of access to the site’s core functionalities and as a result generates high usabilty for the one page website. 
@@ -134,6 +134,8 @@ In the construction of this project I have utilised the following languages, fra
     - I used **Balsamiq**, the rapid low-fidelity UI wireframing tool during the prototyping phase to structure the website and it's content following best UX practices.
 - [Photoshop](https://www.photoshop.com)
     - I created the text segment of the company logo using the image graphics editor **Photoshop** so the website/company name would be visible to the user upon landing on the site.
+- [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
+    - **Chrome Dev Tools** was used to consistently test and view the project in the browser.
 - [Google Fonts](https://getbootstrap.com)
     - **Google Fonts** was used to style the website fonts.
 - [Font Awesome](https://fontawesome.com/)
@@ -158,23 +160,54 @@ In the construction of this project I have utilised the following languages, fra
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+### UX stories testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+1. **As a Venue Manager/ Ticketing Agent/ Artist/ Agent: I want to view the company information and experience**
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+    (i) From the first glance, there is an option in the navigation bar called "Who We Are" to learn more about the company. Also in the slider there is a caption reading "Ireland's Leading Music Promoter" with a CTA displaying the text "Learn More About Us". Both links direct to the relevant section.
+
+2. **As a Venue Manager/ Ticketing Agent/ Artist/ Agent: I want to find out the artists the promoter works with**
+
+    (i) There is clear direction in the navbar that to find out more info on the artists represented, the link for "Who We Represent" should be selected. Also in the Carousel in the header there is a caption "Artist-First Ethos" and a Call To Action button to "Check out our Artists". Both links direct to the correct section. The sub-heading text reads that the user can learn more by selecting a particular artist. Once selecting an artist, a pop up opens up to reveal a music video link, a short bio and links to the artist's social media and website.
+
+3. **As a Venue Manager/ Ticketing Agent/ Artist/ Agent: I want to check out their upcoming events.**
+   
+    (i) At the top of the site, there is a link to events as well as a slider with an image and caption "Creating Memorable Events" and the CTA inviting the user to "Browse Our Events". Both links divert to the correct area. The sub-heading prompts the user to browse the current events. The slider can be selected by the left and right controls. The user can "Get Tickets" by clicking the link which brings them to an external ticketing site.  
+
+4. **As a Venue Manager/ Ticketing Agent/ Artist/ Agent: I want to check out their social media channels**
+
+    (i) There are social media icons found in the footer which link to the company's channels.
+
+4. **As a Venue Manager/ Ticketing Agent/ Artist/ Agent: I want to contact the promoter about working together**
+
+    (i) There is a prominent button at the top of the page directing the user towards the contact form. The form does not allow the user to submit until all fields are completed otherwise they will receive a prompt. There is also contact details found in the footer. 
+
+
+I used the [W3C Markup Validation Service](https://validator.w3.org/) to check the Markup and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to check the CSS validity of the site.
+![alt text](assets/wireframes/html-validation-1.PNG "HTML Validation Initial Results")
+
+After fixing the errors on both testing sites, the site eventually passed the W3C Validation.
+![alt text](assets/wireframes/html-validation-2.PNG "HTML Validation Final Results")
+
+
+The [Color Contrast Accessibility Validator](https://color.a11y.com/) was used to test for colour contrast on the project.
+![alt text](assets/wireframes/color-validation-1.PNG "Color Validation Initial Results")
+
+I found the original teal shade wasn't working from an Accessibility standpoint so I decided to change the colour to a darker shade to comply with Accessibility standards.
+![alt text](assets/wireframes/color-validation-2.PNG "Color Validation Final Results")
+
+
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+I asked my family, friends and fellow students to test their site on different devices to check for potential bugs.
+
+
+
+
 
 ## Deployment
 

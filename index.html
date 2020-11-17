@@ -96,7 +96,7 @@
 		</div>
 		<!-- END OF CAROUSEL -->
 
-		<!-- START OF COMPANY SECTION -- Found the following resource to maintain equal height in cards https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns -->
+		<!-- START OF COMPANY SECTION -Found the following resource to maintain equal height in cards https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns -->
 		<section id="whoweare" class="jumbotron text-center">
 			<div class="container">
 				<h3>We bring together artists and fans
@@ -705,8 +705,8 @@
 					<!--Controls-->
 					<div class="controls-top">
 						<a class="btn-floating" href="#multi-item-example"
-							data-slide="prev"><i class="fas fa-chevron-circle-left fa-2x"></i></a>
-						<a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+							data-slide="prev" aria-label="Select left to view the current events"><i class="fas fa-chevron-circle-left fa-2x"></i></a>
+						<a class="btn-floating" href="#multi-item-example" data-slide="next" aria-label="Select right to view the current events"><i
         class="fas fa-chevron-circle-right fa-2x"></i></a>
 					</div>
 					<!--/.Controls-->
@@ -904,19 +904,23 @@
 						<div class="col-sm-12 col-md-8 mb-3">
 							<form class="needs-validation">
 								<div class="form-group">
-									<input type="text" class="form-control" id="name" placeholder="Name" required>
+                                    <label for="name">Name</label>
+									<input type="text" class="form-control" id="name" placeholder="Enter name" required>
                                 </div>
 									<div class="form-group">
-										<input type="email" class="form-control" id="email" placeholder="Email" required>
+                                        <label for="email">Email address</label>
+										<input type="email" class="form-control" id="email" placeholder="Enter email" required>
                                     </div>
 										<div class="form-group">
-											<input type="tel" class="form-control" id="phone" placeholder="Phone" required>
+                                            <label for="phone">Phone</label>
+											<input type="tel" class="form-control" id="phone" placeholder="Enter number" required>
                                         </div>
 											<div class="form-group">
-												<textarea class="form-control" id="textarea" rows="6" placeholder="Your message" required></textarea>
+                                                <label for="textarea">Message</label>
+												<textarea class="form-control" id="textarea" rows="6" placeholder="Your message here" required></textarea>
 											</div>
 											<div class="form-group">
-												<div class="form-check">
+												<div class="form-check text-dark">
 													<input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
 													<label class="form-check-label" for="invalidCheck2"> I agree to a member of the Singular Artists team contacting me
                                                     </label>
@@ -943,20 +947,20 @@
 		<div class="container-fluid">
 			<div class="row text-center">
 				<div class="col-md-8 text-sm-center text-md-left text-lg-left">
-					<p class="mt-2"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+					<p class="mt-2"><i class="fas fa-envelope fa-lg" aria-label="Drop us an email" aria-hidden="true"></i>
 						hello@singularartists.ie
-						<i class="fas fa-phone fa-lg" aria-hidden="true"></i> 01 234 5678</p>
+						<i class="fas fa-phone fa-lg" aria-label="Give us a call" aria-hidden="true"></i> 01 234 5678</p>
 				</div>
 				<div class="col-md-4 text-sm-center text-md-right text-lg-right mt-3">
 					<div class="mb-1 align-self-right pt-0 d-inline-block">
 						<a href="https://twitter.com/singularartists" target="_blank" role="button"
-							class=" btn-white p-2 btn btn-round btn-rised btn-icon x"><i class="fab fa-twitter fa-lg color-light" aria-hidden="true"></i></a>
+							class=" btn-white p-2 btn btn-round btn-rised btn-icon x" aria-label="View our Twitter page"><i class="fab fa-twitter fa-lg color-light" aria-hidden="true"></i></a>
 						<a href="https://www.facebook.com/wearesingularartists" target="_blank" role="button"
-							class="btn-white p-2 btn btn-round btn-rised btn-icon"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a>
+							class="btn-white p-2 btn btn-round btn-rised btn-icon" aria-label="View our Facebook page"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a>
 						<a href="https://www.instagram.com/wearesingularartists" target="_blank" role="button"
-							class="btn-white p-2 btn btn-round btn-rised btn-icon"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+							class="btn-white p-2 btn btn-round btn-rised btn-icon" aria-label="View our Instagram page"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
 						<a href="https://www.spotify.com" target="_blank" role="button"
-							class="btn-white p-2 btn btn-rised btn-round btn-icon"><i class="fab fa-spotify fa-lg" aria-hidden="true"></i></a>
+							class="btn-white p-2 btn btn-rised btn-round btn-icon" aria-label="View our Spotify profile"><i class="fab fa-spotify fa-lg" aria-hidden="true"></i></a>
 					</div>
 				</div>
 			</div>
@@ -970,7 +974,7 @@
 				<div class="col-md-4 text-sm-center text-md-right text-lg-right">
 					<div class="align-self-right pt-0 d-inline-block">
 						<p class="scroll-top">Back to top
-							<a href="#">
+							<a href="#" aria-label="Go back to the top of the page">
 								<i class="fas fa-arrow-up fa-lg" aria-hidden="true"></i></a>
 						</p>
 					</div>

@@ -4,6 +4,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
+    background-color: #000;
 }
 
 /* General */
@@ -129,6 +130,8 @@ h2 {
 .jumbotron {
     background-color: #21a4a2;
     color: #fff;
+    margin: 2.5px;
+    border-radius: 0px;
 }
 
 /* Section tagline */
@@ -233,7 +236,7 @@ h3 {
 }
 
 /*Footer Icons */
-.fab:hover{
+.footer-icons .fab:hover{
     color: #fff;
 }
 
@@ -259,6 +262,9 @@ padding-bottom: 10px;
 }
 }
 
-
-
-
+/*Media query - modal dimensions */
+@media (min-width: 992px){
+.modal-lg {
+    max-width: 600px;
+}
+}

@@ -161,7 +161,9 @@ In the construction of this project I have utilised the following languages, fra
 
 ## Testing
 
-
+noreferrer
+further compressed https://imagecompressor.com/
+add js bug fix
 ### UX stories testing
 
 1. **As a Venue Manager/ Ticketing Agent/ Artist/ Agent: I want to view the company information and experience**

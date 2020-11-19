@@ -1,4 +1,4 @@
-# Singular Artists Company Website
+# SingularArtists.ie
 
 ## Code Institute MS1 Project in User-Centric Frontend Development 
 The brief was to develop a static front end project with a minimum three separate page areas using HTML and CSS while following UX industry standards. This website is created for educational purposes.
@@ -143,6 +143,10 @@ In the construction of this project I have utilised the following languages, fra
     - I used the font & icon toolkit **Font Awesome** in the company section and the social media links to provide a definition to elements by a visual means.
 - [TinyPNG](https://tinypng.com)
     - The **TinyPNG** website was used to reduce the file size of my image files in order to use less bandwidth and allow the website to load faster.
+https://www.freeformatter.com/css-beautifier.html
+https://www.freeformatter.com/html-formatter.html#ad-output
+further compressed https://imagecompressor.com/
+
 - [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln)
     - I regularly used the **Unicorn Revealer** Chrome extension to inspect and locate where overflow was located making the debugging process alot easier. 
 - [YouTube](https://youtube.com)
@@ -161,8 +165,11 @@ In the construction of this project I have utilised the following languages, fra
 
 ## Testing
 
+
+
+
 noreferrer
-further compressed https://imagecompressor.com/
+
 add js bug fix
 ### UX stories testing
 
@@ -254,9 +261,6 @@ The text for the About Section was adapted from:
 - Fontaines DC Gallery Image - [from The Face](https://theface.com/music/fontaines-d-c-punk-poetry-a-heros-death-dogrel-interview-grian-chatten)
 - Dermot Kennedy Gallery Image - [from Irish Central](https://www.irishcentral.com/culture/entertainment/irish-singer-dermot-kennedy)
 - Picture This Gallery Image - [from Official Charts](https://www.officialcharts.com/chart-news/picture-this-top-10-biggest-songs-on-the-official-irish-singles-chart__25912/)
-- Hall & Oates Gallery Image - [from Parade](https://parade.com/983201/laurawhitmore/hall-and-oates-2020-tour-dates/)
-- Alanis Morissette Gallery Image - [from Hello!](https://ca.hellomagazine.com/celebrities/02020081957212/alanis-morissette-skincare-routine-using-the-body-shop-since-1990s)
-- The Dubliners Gallery Image - [from Festivaly](https://festivaly.eu/en/artists/the-dublin-legends/654005)
 - Sam Wickens Gallery & Event Listing Image - [from Sam Wickens Twitter Account](https://twitter.com/samwickensmusic)
 - Ailbhe Reddy Gallery & Event Listing Image - [from Read Dork](https://www.readdork.com/features/getting-to-know-ailbhe-reddy)
 - Boy Pablo Gallery & Event Listing Image - [from Teco Apple](https://tecoapple.com/2020/07/13/boy-pablo-lanca-o-single-honey-e-o-b-side-jds-song/boypablohoneya020/)
@@ -269,21 +273,18 @@ The text for the About Section was adapted from:
 - Fontaines Gallery & Event Listing Image - [from Pollstar](https://www.pollstar.com/article/first-etep-2019-results-already-10-confirmed-festival-slots-for-fontaines-dc-137581)
 
  The video links used in this site were obtained from the following sources:
-- Fontaines DC Modal Video - [from Youtube](https://theface.com/music/fontaines-d-c-punk-poetry-a-heros-death-dogrel-interview-grian-chatten)
-- Dermot Kennedy Modal Video - [from Youtube](https://www.irishcentral.com/culture/entertainment/irish-singer-dermot-kennedy)
-- Picture This Modal Video - [from Youtube](https://www.officialcharts.com/chart-news/picture-this-top-10-biggest-songs-on-the-official-irish-singles-chart__25912/)
-- Hall & Oates Modal Video - [from Youtube](https://parade.com/983201/laurawhitmore/hall-and-oates-2020-tour-dates/)
-- Alanis Morissette Modal Video - [from Youtube](https://ca.hellomagazine.com/celebrities/02020081957212/alanis-morissette-skincare-routine-using-the-body-shop-since-1990s)
-- The Dubliners Modal Video - [from Youtube](https://festivaly.eu/en/artists/the-dublin-legends/654005)
-- Sam Wickens Modal Video - [from Youtube](https://twitter.com/samwickensmusic)
-- Ailbhe Reddy Modal Video - [from Youtube](https://www.readdork.com/features/getting-to-know-ailbhe-reddy)
-- Boy Pablo Modal Video - [from Youtube](https://tecoapple.com/2020/07/13/boy-pablo-lanca-o-single-honey-e-o-b-side-jds-song/boypablohoneya020/)
-- Reevah Modal Video - [from Youtube](https://www.xsnoize.com/interview-with-derry-based-americana-folk-artist-reevah/)
-- Novo Amor Modal Video - [from Youtube](https://mrlifeday.com/novo-amor-birthplace-and-interview/)
-- Pillow Queens Modal Video - [from Youtube](https://giglist.com/buzz/article/review-pillow-queens-handsome-wife)
-- Elderbrook Modal Video - [from Youtube](https://www.officialcharts.com/chart-news/elderbrook-explores-the-power-of-human-connection-on-his-debut-album-why-do-we-shake-in-the-cold-first-listen-preview__31001/)
-- Maija Sofia Modal Video - [from Youtube](https://www.strangebrew.ie/new-events-1/2020/2/20/maija-sofia)
-- Rhys Lewis Modal Video - [from Youtube](https://www.standard.co.uk/showbiz/celebrity-news/rhys-lewis-my-songs-are-so-personal-it-can-be-awkward-for-the-people-in-them-a3427356.html)
+- Fontaines DC Modal Video - [from Youtube](https://youtu.be/TNXrKBt76zI)
+- Dermot Kennedy Modal Video - [from Youtube](https://youtu.be/Fi33qkv4Bjw)
+- Picture This Modal Video - [from Youtube](https://youtu.be/HJs3O7rb9zY)
+- Sam Wickens Modal Video - [from Youtube](https://youtu.be/JqFwORSs8PY)
+- Ailbhe Reddy Modal Video - [from Youtube](https://youtu.be/aZ-dzPQADi4)
+- Boy Pablo Modal Video - [from Youtube](https://youtu.be/HZ4bTlHjA_I)
+- Reevah Modal Video - [from Youtube](https://youtu.be/uyJxlUXJCMI)
+- Novo Amor Modal Video - [from Youtube](https://youtu.be/utj0BFuv1-Q)
+- Pillow Queens Modal Video - [from Youtube](https://youtu.be/fvHd0vId3uo)
+- Elderbrook Modal Video - [from Youtube](https://youtu.be/ooD1ggdZ8dg)
+- Maija Sofia Modal Video - [from Youtube](https://youtu.be/gbnD-tRI8-4)
+- Rhys Lewis Modal Video - [from Youtube](https://youtu.be/srfl7PnoaQE)
 
 
 
@@ -292,3 +293,12 @@ The text for the About Section was adapted from:
 
 I received inspiration for this project from my ticketing client, Singular Artists who have yet to set up their company website.
 I would like to thank my mentor Guido Cecilio for his guidance and support and Jim Morel on Slack.
+<!-- Code Snippet: Implemented Scrollspy from: https://getbootstrap.com/docs/4.5/components/scrollspy/ -->
+      <!-- START OF NAVBAR - Code Snippet: Navbar and carousel to fix previous bug with my own custom code from: https://www.divinector.com/2019/07/bootstrap-4-navbar-with-slider-source.html -->
+      <!-- START OF COMPANY SECTION - Code Snippet:- Maintain equal height in cards from: https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns -->
+         <!-- START OF ARTISTS GALLERY WITH MODALS Code Snippet:- Add Modal Gallery with my own custom changesfrom: https://mdbootstrap.com/plugins/jquery/gallery/ -->
+         <!--Code Snippet:- Carousel Wrapper with own custom code from https://mdbootstrap.com/snippets/jquery/alexpiffero-it/696600#html-tab-view-->
+         <!-- START OF CONTACT FORM - Code Snippet:-Took basic form structure and customised with own content from https://getbootstrap.com/docs/4.0/components/forms/#form-groups -->
+         <!-- START OF FOOTER - Code Snippet:- Took slight inspiration for the icons and links with my own custom code from https://bootstraptor.com/snippets/bootstrap-4-snippet-footer-links-logo/ -->
+       <!-- Active script credited to Jim Lynx from Code Institute in assistance with active link issue -->
+      <!-- Modal script credited to mentor Guido Cecilio from Code Institute in assistance with active link issue -->

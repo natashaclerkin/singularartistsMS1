@@ -1,270 +1,351 @@
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
-        
-body{
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 2px;
-    background-color: #000;
-}
+/* || FONTS */
 
-/* General */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
-/* Container */
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    width: 100%;
-    padding-right: 10%;
-    padding-left: 10%;
-    margin-right: auto;
-    margin-left: auto;
+
+/* || GENERAL STYLES */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	background-color: #000;
 }
 
-p{
-    letter-spacing: normal;
+p {
+	letter-spacing: normal;
 }
+
+
+/* || SITEWIDE */
+
+
+/* HEADINGS */
+
+h1 {
+	letter-spacing: 18px;
+	font-weight: 600;
+}
+
+h2 {
+	text-transform: uppercase;
+	margin: 30px;
+	font-size: 26px;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+}
+
 
 /* Sub-Headings */
+
 .lead {
-    margin-bottom: 30px;
-    margin-top: -15px;
-    color: #000;
-    font-weight: 500;
+	margin-bottom: 30px;
+	margin-top: -15px;
+	color: #000;
+	font-weight: 500;
 }
+
+
+/* Section BG color*/
+
+.jumbotron {
+	background-color: #21a4a2;
+	color: #fff;
+	margin: 2.5px;
+	border-radius: 0px;
+}
+
+
+/* || HEADER AND MAIN NAVIGATION */
 
 
 /* Navbar */
+
 .navbar {
-    height: 55px;
-    background-color: rgba(0, 0, 0, 0.9);
-    padding-right: 0rem;
-    padding-left: 0rem;
-    padding-top: 0rem;
-    padding-bottom: 0rem;
+	height: 55px;
+	background-color: rgba(0, 0, 0, 0.9);
+	padding-right: 0rem;
+	padding-left: 0rem;
+	padding-top: 0rem;
+	padding-bottom: 0rem;
 }
+
 
 /* Toggler */
+
 .navbar-toggler {
-    background-color: #FFF;
+	background-color: #FFF;
 }
+
 
 /* Inactive navlinks */
+
 .navbar-light .navbar-nav .nav-link {
-    color:#fff;
-    margin-right: 10px;
-    letter-spacing: 2px;
+	color: #fff;
+	margin-right: 10px;
+	letter-spacing: 2px;
 }
+
 
 /* Navlinks */
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color:#ffffff;
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+	color: #ffffff;
 }
+
 
 /* active navlinks */
+
 .nav-item a.active {
-  color: #f742a8 !important;
+	color: #f742a8 !important;
 }
+
 
 /* Logo */
+
 .navbar-brand {
-    margin-left: 20px;
+	margin-left: 20px;
 }
+
 
 /* 'Get in touch' CTA Button */
+
 .btn-outline-dark {
-    color: #fff;
-    border: 2px solid #f742a8;
-    background-color: rgba(0, 0, 0, 0.9);
-    margin-left: 0px;
-    margin-right: 10px;
-    letter-spacing: 2px;
+	color: #fff;
+	border: 2px solid #f742a8;
+	background-color: rgba(0, 0, 0, 0.9);
+	margin-left: 0px;
+	margin-right: 10px;
+	letter-spacing: 2px;
 }
+
 
 /* Hover 'Get in touch' & CTA Buttons */
+
 .btn-outline-dark:hover {
-    color: #fff;
-    background-color: #f742a8;
-    border-color: #fff;
+	color: #fff;
+	background-color: #f742a8;
+	border-color: #fff;
 }
+
 
 /* Hover nav links*/
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #f742a8;
-    margin-right: 10px;
-    letter-spacing: 2px;
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #f742a8;
+	margin-right: 10px;
+	letter-spacing: 2px;
 }
 
+
+/* CONTAINERS */
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+	width: 100%;
+	padding-right: 10%;
+	padding-left: 10%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/* CAROUSEL SECTION */
+
+
 /* Carousel caption */
+
 .carousel-caption {
-    top: 35%; 
-}    
+	top: 35%;
+}
+
 
 /* Carousel CTA */
+
 .homecta {
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
-/* Carousel caption */
-h1 {
-    letter-spacing: 18px;
-    font-weight: 600;
+
+/* ABOUT US SECTION */
+
+
+/* Company titles */
+
+.about h3 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: normal;
 }
 
-/* Main carousel colour effect (Inspired code from https://stackoverflow.com/questions/15765550/darkening-an-image-with-css-in-any-shape/41076850) */
-.carousel-black img {
-filter: brightness(95%) saturate(0%);
-    margin-top: 55px;
-}
-
-/* Headings */
-h2 {
-    text-transform: uppercase;
-    margin: 30px;
-    font-size: 26px;
-
-}
-
-/* Section BG color*/
-.jumbotron {
-    background-color: #21a4a2;
-    color: #fff;
-    margin: 2.5px;
-    border-radius: 0px;
-}
-
-/* Section tagline */
-.text-tagline {
-    color: #000;
-}
 
 /*Company Icons */
-.fa, .fas {
-    color: #f742a8;
-    margin-top: 20px;
+
+.fa,
+.fas {
+	color: #f742a8;
+	margin-top: 20px;
 }
 
-/* Company Icons titles */
-.about h3 {
-    color: #fff;
-    font-size: 20px;
-    font-weight: normal;
-}
 
-/* Company Icons titles */
+/* Company */
+
 .card-company .card {
-    color: #fff;
-    background-color: #000;
+	color: #fff;
+	background-color: #000;
 }
+
+
+/* EVENTS SECTION */
+
 
 /* Events slider controls */
-.controls-top .fas{
-    color: #000;
-    margin-bottom: 30px;
-    margin-top: -20px;
-}
 
-/* Events slider controls */
-.controls-top .fas:hover{
-    color: #fff;
+.controls-top .fas {
+	color: #000;
+	margin-bottom: 30px;
+	margin-top: -20px;
 }
 
 
-/* Events slider indicators 
-.events-indicators{
-    position: relative;
-}*/
+/* Events slider controls hover*/
 
-/* Contact form */
-.form-row {
-    margin-top: 40px;
+.controls-top .fas:hover {
+	color: #fff;
 }
 
-/* Company & artist images & responsive images */
-.img-fluid {
-    display: block; 
-    max-width: 100%; 
-    height: auto; 
-} 
 
-/* Gallery modals footer*/
-.modal-footer>* {
-    color: #f742a8;
-}
+/* ARTIST SECTION */
 
-/* Gallery modal social media icons hover*/
-.modal-footer a:hover {
-    color: #000;
-    text-decoration: none;
-}
 
 /* Gallery modal title*/
-.modal-footer h3{
-    font-weight: bold;
-    text-transform: uppercase; 
-    font-size: 18px;
+
+.modal-footer h3 {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
 }
 
-/* Event card title */
-h3 {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 16px;
+
+/* Gallery modals footer */
+
+.modal-footer>* {
+	color: #f742a8;
 }
+
+
+/* Gallery modal social media icons hover */
+
+.modal-footer a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+
+/* CONTACT FORM SECTION */
+
+.form-row {
+	margin-top: 40px;
+}
+
 
 /* Checkbox Text */
+
 .form-check-label {
-    letter-spacing: normal;
-    color: #000;
+	letter-spacing: normal;
+	color: #000;
 }
 
-/* Footer */
-.footer{
-    background-color: #000;
-    color: #fff;
+
+/* || IMAGES */
+
+
+/* RESPONSIVE COMPANY & ARTIST IMAGES */
+
+.img-fluid {
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
-/*Footer Icons */
-.footer .fas {
-    color: #f742a8;
+
+/* CAROUSEL IMAGES */
+
+
+/* B&W colour effect (Made custom changes to code credit: https://stackoverflow.com/questions/15765550/darkening-an-image-with-css-in-any-shape/41076850) */
+
+.carousel-black img {
+	filter: brightness(95%) saturate(0%);
+	margin-top: 55px;
 }
 
-/*Footer Icons */
+
+/* || FOOTER */
+
+.footer {
+	background-color: #000;
+	color: #fff;
+}
+
+
+/* Footer Icons */
+
+.footer .fa-arrow-up {
+	margin-left: 5px;
+	color: #21a4a2;
+}
+
 .footer .fab {
-    color: #f742a8;
+	color: #f742a8;
 }
 
-/*Footer Icons */
-.footer-icons .fab:hover{
-    color: #fff;
+.footer .fas {
+	color: #f742a8;
 }
 
-/*Footer Icons */
-.footer .fa-arrow-up{  
-    margin-left: 5px;
-    color: #21a4a2;
+.scroll-top {
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: -3px;
 }
 
-.scroll-top {  
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: -3px;
+.footer-icons .fab:hover {
+	color: #fff;
 }
 
 
-/*Media query - hover toggle menu */
+/* || MEDIA QUERIES */
 
-@media (max-width: 991px){
-.navbar-collapse {
-background-color: rgba(0, 0, 0, 0.6);
-padding-bottom: 10px;
-}
+
+/* Toggle menu *mall
+ muide
+@media (max-width: 991px) {
+	.navbar-collapse {
+		background-color: rgba(0, 0, 0, 0.6);
+		padding-bottom: 10px;
+	}
 }
 
-/*Media query - modal dimensions */
-@media (min-width: 992px){
-.modal-lg {
-    max-width: 600px;
-}
+
+/* Modal dimensions */
+
+@media (min-width: 992px) {
+	.modal-lg {
+		max-width: 600px;
+	}
 }

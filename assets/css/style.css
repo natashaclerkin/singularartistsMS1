@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* || FONTS */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
@@ -287,10 +294,11 @@ h3 {
 /* CAROUSEL IMAGES */
 
 
-/* B&W colour effect (Made custom changes to code credit: https://stackoverflow.com/questions/15765550/darkening-an-image-with-css-in-any-shape/41076850) */
+/* B&W colour effect added to allow CTA's and logo to stand out (Made custom changes to code credit: https://stackoverflow.com/questions/15765550/darkening-an-image-with-css-in-any-shape/41076850) */
 
 .carousel-black img {
-	filter: brightness(95%) saturate(0%);
+	-webkit-filter: brightness(95%) saturate(0%);
+	        filter: brightness(95%) saturate(0%);
 	margin-top: 55px;
 }
 
@@ -305,11 +313,6 @@ h3 {
 
 /* Footer Icons */
 
-.footer .fa-arrow-up {
-	margin-left: 5px;
-	color: #21a4a2;
-}
-
 .footer .fab {
 	color: #f742a8;
 }
@@ -322,9 +325,14 @@ h3 {
 	margin-right: 10px;
 	margin-left: 10px;
 	margin-top: -3px;
+    color: #21a4a2;
 }
 
 .footer-icons .fab:hover {
+	color: #fff;
+}
+
+.scroll-top .fas:hover {
 	color: #fff;
 }
 
@@ -332,8 +340,8 @@ h3 {
 /* || MEDIA QUERIES */
 
 
-/* Toggle menu *mall
- muide
+/* Toggle menu Small & Medium devices*/
+
 @media (max-width: 991px) {
 	.navbar-collapse {
 		background-color: rgba(0, 0, 0, 0.6);
@@ -342,7 +350,7 @@ h3 {
 }
 
 
-/* Modal dimensions */
+/* Modal dimensions Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
 	.modal-lg {

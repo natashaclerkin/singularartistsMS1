@@ -1,7 +1,7 @@
 # SingularArtists.ie
 
 ## Code Institute MS1 Project in User-Centric Frontend Development 
-The brief was to develop a static front end project with a minimum three separate page areas using HTML and CSS while following UX industry standards. This website is created for educational purposes.
+The brief was to develop a static front end project with a minimum three separate page areas using HTML and CSS while following UX industry conventions. This website is created for educational purposes.
 
 [View website in GitHub Pages.](https://natashaclerkin.github.io/singularartistsMS1/) 
  
@@ -52,11 +52,12 @@ Most promoter websites increase the cognitive load on the user. This website ena
 
 #### User Stories
 
+
 1. **_As a Venue Manager,_** I want to find out the artists the promoter works with so that I can decide if there is potential to reach capacity and sell-out nights at our venue. 
 2. **_As a Venue Manager,_** I want to discover what experience the company has so that I can evaluate if they have enough expertise to work with our venue. 
 3. **_As a Venue Manager,_** I want to check out their social media channels to view their current promotional activity to see if they can successfully market events.
-4. **_As an Artist/Agent,_** I want to learn about the type of artists the promoter is working with so that I can view previous marketing strategies and the ability to potentially promote our future gigs. 
-5. **_As an Artist/Agent,_** I want to view the company history as I want to work with an experienced promoter who is well connected within the industry. 
+4. **_As an Artist/Agent,_** I want to learn about the type of artists the promoter is working with so that I can view their previous marketing strategies and their ability to potentially promote our future gigs. 
+5. **_As an Artist/Agent,_** I want to learn about the company history as I want to work with an experienced promoter who is well connected within the industry. 
 6. **_As a Ticketing Agent,_** I want to learn about the promoter’s artists and venues so that I can evaluate ticket sales potential. 
 7. **_As a Ticketing Agent/Artist/Agent/Venue Manager,_** I want to find out if the promoter is reputable, credible and approachable in order to potentially be able to build a long-term relationship. 
 
@@ -124,7 +125,7 @@ Due to time restraints I was unable to include the following features but hope t
 # Technologies Used
 
 In the construction of this project I have utilised the following languages, frameworks, libraries and tools:
-- **HTML5** and **CSS3** programming languages
+- **HTML5,** **CSS3** and **JavaScript** programming languages
 - [Bootstrap v4.5.3](https://getbootstrap.com)
     - The project used **Bootstrap** to simplify the website layout by integrating the Modals for further artist info and the Cards for event listings and company info. Also to provide overall responsive behaviour on all devices.
 - [GitPod](https://www.gitpod.io/)
@@ -136,17 +137,17 @@ In the construction of this project I have utilised the following languages, fra
 - [Photoshop](https://www.photoshop.com)
     - I created the text segment of the company logo using the image graphics editor **Photoshop** so the website/company name would be visible to the user upon landing on the site.
 - [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
-    - **Chrome Dev Tools** was used to consistently test and view the project in the browser.
+    - **Chrome Dev Tools** was used to consistently test the site and run reports such as Lighthouse.
 - [Google Fonts](https://getbootstrap.com)
     - **Google Fonts** was used to style the website fonts.
 - [Font Awesome](https://fontawesome.com/)
     - I used the font & icon toolkit **Font Awesome** in the company section and the social media links to provide a definition to elements by a visual means.
 - [TinyPNG](https://tinypng.com)
-    - The **TinyPNG** website was used to reduce the file size of my image files in order to use less bandwidth and allow the website to load faster.
-https://www.freeformatter.com/css-beautifier.html
-https://www.freeformatter.com/html-formatter.html#ad-output
-further compressed https://imagecompressor.com/
-
+    - The **TinyPNG** website was used to originally reduce the file size of my image files in order to use less bandwidth and allow the website to load faster.
+- [Freeformatter CSS Beautify](https://www.freeformatter.com/css-beautifier.html)
+    - I used **CSS Beautify** to format and auto indent my CSS file.
+- [Freeformatter HTML Formatter](https://www.freeformatter.com/html-formatter.html)
+    - The **HTML Formatter** was used to format the HTML document.    
 - [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln)
     - I regularly used the **Unicorn Revealer** Chrome extension to inspect and locate where overflow was located making the debugging process alot easier. 
 - [YouTube](https://youtube.com)
@@ -161,45 +162,42 @@ further compressed https://imagecompressor.com/
     - The **W3C Markup Validation Service** checked the markup validity of Web documents in HTML.
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
     - **W3C CSS Validation Service** was used to check the validity of my CSS in the project.
+- [Optimizilla Image Compressor](https://imagecompressor.com/)
+    - **Image Compressor** was used to further compress the images with custom compression options.
+    ![alt text](assets/wireframes/optimizilla.PNG "Optimizilla Image Compressor")
+
+# Testing
 
 
-## Testing
+## UX stories testing
 
+**As a Venue Manager/ Ticketing Agent/ Artist/ Agent: I want to view the company information and experience**
 
+    From the first glance, there is an option in the navigation bar called "Who We Are" to learn more about the company. Also in the slider there is a caption reading "Ireland's Leading Music Promoter" with a CTA displaying the text "Learn More About Us". Both links direct to the relevant section.
 
+**As a Venue Manager/ Ticketing Agent/ Artist/ Agent: I want to find out the artists the promoter works with**
 
-noreferrer
+    There is clear direction in the navbar that to find out more info on the artists represented, the link for "Who We Represent" should be selected. Also in the carousel in the header there is a caption "Artist-First Ethos" and a Call To Action button to "Check out our Artists". Both links direct to the correct section. The sub-heading text reads that the user can learn more by selecting a particular artist. Once selecting an artist, a pop up opens up to reveal a music video link, a short bio and links to the artist's social media and website.
 
-add js bug fix
-### UX stories testing
-
-1. **As a Venue Manager/ Ticketing Agent/ Artist/ Agent: I want to view the company information and experience**
-
-    (i) From the first glance, there is an option in the navigation bar called "Who We Are" to learn more about the company. Also in the slider there is a caption reading "Ireland's Leading Music Promoter" with a CTA displaying the text "Learn More About Us". Both links direct to the relevant section.
-
-2. **As a Venue Manager/ Ticketing Agent/ Artist/ Agent: I want to find out the artists the promoter works with**
-
-    (i) There is clear direction in the navbar that to find out more info on the artists represented, the link for "Who We Represent" should be selected. Also in the Carousel in the header there is a caption "Artist-First Ethos" and a Call To Action button to "Check out our Artists". Both links direct to the correct section. The sub-heading text reads that the user can learn more by selecting a particular artist. Once selecting an artist, a pop up opens up to reveal a music video link, a short bio and links to the artist's social media and website.
-
-3. **As a Venue Manager/ Ticketing Agent/ Artist/ Agent: I want to check out their upcoming events.**
+**As a Venue Manager/ Ticketing Agent/ Artist/ Agent: I want to check out their upcoming events.**
    
-    (i) At the top of the site, there is a link to events as well as a slider with an image and caption "Creating Memorable Events" and the CTA inviting the user to "Browse Our Events". Both links divert to the correct area. The sub-heading prompts the user to browse the current events. The slider can be selected by the left and right controls. The user can "Get Tickets" by clicking the link which brings them to an external ticketing site.  
+    At the top of the site, there is a link to events as well as a slider with an image and caption "Creating Memorable Events" and the CTA inviting the user to "Browse Our Events". Both links divert to the correct area. The sub-heading prompts the user to browse the current events. The slider can be selected by the left and right controls. The user can "Get Tickets" by clicking the link which brings them to an external ticketing site.  
 
-4. **As a Venue Manager/ Ticketing Agent/ Artist/ Agent: I want to check out their social media channels**
+**As a Venue Manager/ Ticketing Agent/ Artist/ Agent: I want to check out their social media channels**
 
-    (i) There are social media icons found in the footer which link to the company's channels.
+    There are social media icons found in the footer which link to the company's channels.
 
-4. **As a Venue Manager/ Ticketing Agent/ Artist/ Agent: I want to contact the promoter about working together**
+**As a Venue Manager/ Ticketing Agent/ Artist/ Agent: I want to contact the promoter about working together**
 
-    (i) There is a prominent button at the top of the page directing the user towards the contact form. The form does not allow the user to submit until all fields are completed otherwise they will receive a prompt. There is also contact details found in the footer. 
+    There is a prominent button at the top of the page directing the user towards the contact form. The form does not allow the user to submit until all fields are completed otherwise they will receive a prompt. This was achieved using the `required` attribute.  There is also contact details found in the footer. 
 
 
+## Validation Websites
 I used the [W3C Markup Validation Service](https://validator.w3.org/) to check the Markup and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to check the CSS validity of the site.
 ![alt text](assets/wireframes/html-validation-1.PNG "HTML Validation Initial Results")
 
 After fixing the errors on both testing sites, the site eventually passed the W3C Validation.
 ![alt text](assets/wireframes/html-validation-2.PNG "HTML Validation Final Results")
-
 
 The [Color Contrast Accessibility Validator](https://color.a11y.com/) was used to test for colour contrast on the project.
 ![alt text](assets/wireframes/color-validation-1.PNG "Color Validation Initial Results")
@@ -207,15 +205,18 @@ The [Color Contrast Accessibility Validator](https://color.a11y.com/) was used t
 I found the original teal shade wasn't working from an Accessibility standpoint so I decided to change the colour to a darker shade to comply with Accessibility standards.
 ![alt text](assets/wireframes/color-validation-2.PNG "Color Validation Final Results")
 
+I constantly tested the code in [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) and often ran Lighthouse audits to identify and fix issues that affect the site's performance, accessibility and user experience. 
+![alt text](assets/wireframes/lighthouse-testing-1.PNG "Lighthouse Testing Initial")
+
+This would highlight areas that require improvement for validation. For example, performance issues pointed to large image files which would indicate further compression which I would implement. Also a Cross-Origin security issue pertaining to Best Practices was simply resolved via adding `rel= noreferrer` to external links 
+![alt text](assets/wireframes/lighthouse-testing-2.PNG "Lighthouse Testing Run Results")
 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+All inbound site links with their `hover` functionality operate as expected and correctly navigate the user to the intended section and all external link open with `target="_blank"`to allow the user to return to the site conveniently and remember where they have navigated from. If the user clicks on the "Back to Top" link or the logo at any point it will bring them back to the top of the pages as intended.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+I asked my family, friends and fellow students to test their site on different devices with the intention of locating potential bugs. The website was tested over multiple devices (iPhone 5, 6, 11: Safari and Chrome, iPad, Samsung Galaxy) and many browsers (Chrome, Firefox, Safari and Edge) to guarantee responsive behaviour and compatability.  
 
-I asked my family, friends and fellow students to test their site on different devices to check for potential bugs.
-
-
+I came across several minor bugs or issues during development but the majority were easily fixed with assistance from **Chrome Dev Tools** and **Unicorn Revealer** to locate the source. However, one issue that took longer to solve was the audio issue on the Gallery Modal. When the user would play the video and then click close/off the Modal before the end of the video the audio would continue to play causing the user to reload the page to stop the audio. I spoke with my Mentor, Guido Cecilio, about the issue and he advised me on the use of JavaScript to solve the problem. He taught me which scripts to use for the resolution which allowed me to dip my toes into another programming language!
 
 
 
@@ -287,18 +288,15 @@ The text for the About Section was adapted from:
 - Rhys Lewis Modal Video - [from Youtube](https://youtu.be/srfl7PnoaQE)
 
 
-
-
 ### Acknowledgements
 
-I received inspiration for this project from my ticketing client, Singular Artists who have yet to set up their company website.
-I would like to thank my mentor Guido Cecilio for his guidance and support and Jim Morel on Slack.
-<!-- Code Snippet: Implemented Scrollspy from: https://getbootstrap.com/docs/4.5/components/scrollspy/ -->
-      <!-- START OF NAVBAR - Code Snippet: Navbar and carousel to fix previous bug with my own custom code from: https://www.divinector.com/2019/07/bootstrap-4-navbar-with-slider-source.html -->
-      <!-- START OF COMPANY SECTION - Code Snippet:- Maintain equal height in cards from: https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns -->
-         <!-- START OF ARTISTS GALLERY WITH MODALS Code Snippet:- Add Modal Gallery with my own custom changesfrom: https://mdbootstrap.com/plugins/jquery/gallery/ -->
-         <!--Code Snippet:- Carousel Wrapper with own custom code from https://mdbootstrap.com/snippets/jquery/alexpiffero-it/696600#html-tab-view-->
-         <!-- START OF CONTACT FORM - Code Snippet:-Took basic form structure and customised with own content from https://getbootstrap.com/docs/4.0/components/forms/#form-groups -->
-         <!-- START OF FOOTER - Code Snippet:- Took slight inspiration for the icons and links with my own custom code from https://bootstraptor.com/snippets/bootstrap-4-snippet-footer-links-logo/ -->
-       <!-- Active script credited to Jim Lynx from Code Institute in assistance with active link issue -->
-      <!-- Modal script credited to mentor Guido Cecilio from Code Institute in assistance with active link issue -->
+I took inspiration from the following sources however I did implement my own custom code also:
+- Bootstrap was used to implement [Scrollspy](https://getbootstrap.com/docs/4.5/components/scrollspy) for the Navigation and the [Contact Form](https://getbootstrap.com/docs/4.0/components/forms/#form-groups)
+- I came across MD Bootstrap when I was searching for inspiration for the Artists' [Gallery Modal](https://mdbootstrap.com/plugins/jquery/gallery) as well as the Event's [Carousel](https://mdbootstrap.com/snippets/jquery/alexpiffero-it/696600)
+- I found a code snippet for the Navbar and Carousel from [Divenector](https://www.divinector.com/2019/07/bootstrap-4-navbar-with-slider-source.html)
+- During development I had an issue maintaining equal height in the Bootstrap Cards so I ended up finding the solution in [Stack Overflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns)
+- In order to follow footer conventions, I wanted to take inspiration from [Bootstraptor](https://bootstraptor.com/snippets/bootstrap-4-snippet-footer-links-logo)
+      
+I decided to develop this project in honour of my real-life ticketing client, Singular Artists who have yet to set up their company website.
+
+Finally I would like to thank Jim Morel for his assistance with the active link issue and of course my mentor Guido Cecilio for his JavaScript wisdom and overall support throughout the project.

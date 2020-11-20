@@ -315,17 +315,19 @@ h3 {
 }
 
 .scroll-top {
-    margin-right: 10px;
     margin-left: 10px;
     margin-top: -3px;
+}
+
+.copyright {
     color: #21a4a2;
 }
 
-.footer-icons .fab:hover {
+.footer .fas:hover {
     color: #fff;
 }
 
-.scroll-top .fas:hover {
+.footer .fab:hover {
     color: #fff;
 }
 

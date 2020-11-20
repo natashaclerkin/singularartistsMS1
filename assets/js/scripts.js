@@ -5,12 +5,19 @@ $(document).ready(function () {
   });
 
   $('.modal').on('hidden.bs.modal', function (e) {
-    const url = $(e.currentTarget).data('videoUrl');
-    $(e.currentTarget).find('iframe').attr('src', '');
+    const div = $(e.currentTarget).find('div.embed-responsive')[0];
+    div.innerHTML = '';
   });
 
   $('.modal').on('show.bs.modal', function (e) {
-    const url = $(e.currentTarget).data('videoUrl');
-    $(e.currentTarget).find('iframe').attr('src', url);
-  })
+    const div = $(e.currentTarget).find('div.embed-responsive')[0];
+    const iframe = document.createElement('iframe');
+
+    iframe.setAttribute('class', 'embed-responsive-item');
+    iframe.setAttribute('frameborder', '0');
+    iframe.setAttribute('allowfullscreen', '');
+    iframe.setAttribute('src', 'https://www.youtube.com/embed/' + div.dataset.embed + '?rel=0&showinfo=0&autoplay=1');
+
+    div.appendChild( iframe );
+  }) 
 });
